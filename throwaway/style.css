@@ -1,0 +1,54 @@
+*, *::before, *::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: #0d1117;
+  color: #e6edf3;
+  font-family: 'Courier New', monospace;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.container {
+  width: 90vw;
+  max-width: 900px;
+}
+
+.header {
+  display: flex;
+  align-items: baseline;
+  gap: 16px;
+  margin-bottom: 16px;
+}
+
+.ticker {
+  font-size: 1.1rem;
+  color: #8b949e;
+  letter-spacing: 0.1em;
+}
+
+.price {
+  font-size: 2rem;
+  font-weight: bold;
+  color: #e6edf3;
+}
+
+.delta {
+  font-size: 1rem;
+}
+
+.delta.up   { color: #3fb950; }
+.delta.down { color: #f85149; }
+
+canvas {
+  display: block;
+  width: 100%;
+  border: 1px solid #21262d;
+  border-radius: 6px;
+  background: #161b22;
+}
