@@ -1,0 +1,166 @@
+- generic [ref=e2]:
+  - generic [ref=e6]:
+    - generic:
+      - generic:
+        - navigation "Sidebar":
+          - generic [ref=e7]:
+            - generic:
+              - link "Home":
+                - /url: /new
+                - img "Claude"
+            - button "Open sidebar" [ref=e9] [cursor=pointer]:
+              - generic [ref=e12]:
+                - generic [ref=e13]: 
+                - generic [ref=e14]: 
+          - generic:
+            - link:
+              - /url: /new
+              - generic:
+                - generic:
+                  - generic:
+                    - generic: 
+          - generic:
+            - link:
+              - /url: /recents
+              - generic:
+                - generic: 
+              - text: Chats
+            - link:
+              - /url: /projects
+              - generic:
+                - generic: 
+              - text: Projects
+            - link:
+              - /url: /artifacts/my
+              - generic:
+                - generic: 
+            - link:
+              - /url: /customize
+              - generic:
+                - generic: 
+          - generic:
+            - generic:
+              - generic: 
+            - list:
+              - link:
+                - /url: /code
+                - generic:
+                  - generic:
+                    - generic: 
+              - link:
+                - /url: /design
+                - generic:
+                  - generic:
+                    - generic: 
+          - generic:
+            - generic:
+              - generic: 
+            - link:
+              - /url: /chat/fb66374e-899d-4e91-a6b0-c22f9ee18183
+              - generic: Understanding homebrew functionality
+            - link:
+              - /url: /chat/5bd04dd3-d608-43ef-bc7b-e4f8a693032d
+              - generic: News says you died
+            - link:
+              - /url: /chat/df21b71c-51f1-4222-adee-ca5f618a8b27
+              - generic: Data science class summary guide
+            - link:
+              - /url: /chat/1babce35-2958-4e25-bd0b-a7fcf1fe1f0e
+              - generic: Are we living in the end times?
+            - link:
+              - /url: /chat/a524c153-3e6e-4bbd-b992-a95f1365366e
+              - generic: Medical science corruption and the need for scientific revolution
+            - link:
+              - /url: /chat/88af6240-2e45-4258-8d57-fbbf307469c1
+              - generic: AngularJS development interview questions
+            - link:
+              - /url: /chat/3351d91c-321c-4e26-8f2a-baba9fb553f3
+              - generic: Double mastectomy procedure duration
+            - link:
+              - /url: /chat/335511cf-c3d5-47e1-bb17-4512108755fd
+              - generic: Understanding cosine similarity magnitude calculation
+            - link:
+              - /url: /chat/fe4cc6aa-a9da-499c-8cbf-5cf10ab392ee
+              - generic: Whitey Bulger's suspicious prison death
+            - link:
+              - /url: /chat/a4468591-d551-41df-93cb-8de371c855bd
+              - generic: Statistical model performance metrics
+            - link:
+              - /url: /chat/84c4a021-cab9-4c55-9870-4a4c1baafe86
+              - generic: Recommendation systems and personalization
+            - link:
+              - /url: /chat/2818cc47-8a5e-49ff-b4d3-7c161c84e667
+              - generic: Finding My Tribe — Gen X
+            - link:
+              - /url: /chat/be516fce-10ee-4b3d-b04e-671ad1f6939e
+              - generic: Trippiest YES song for transcendence
+            - link:
+              - /url: /chat/412a1da8-03ba-4c8c-8f9e-fe022b4abe23
+              - generic: Understanding causal inference goals
+            - link:
+              - /url: /chat/b4bd9099-e7cd-4953-9ef6-303644800069
+              - generic: Model training metrics evaluation
+            - link:
+              - /url: /chat/4b3ddc3e-e2c6-44a0-9fc7-c9b7a3a065a8
+              - generic: Deploying KNIME models as services
+            - link:
+              - /url: /chat/347f9464-2b7e-43ac-9c13-30641eed69e7
+              - generic: AI tasks and capabilities
+            - link:
+              - /url: /chat/38e3c6b1-6062-45c0-9a4a-fd9e811db8c3
+              - generic: Fun training opportunity
+            - link:
+              - /url: /chat/7ae72063-c065-4760-8d8c-39802c0c87a4
+              - generic: Huggingface payment error with Qwen and Together AI
+            - link:
+              - /url: /chat/1adcdc5c-f83c-4ae7-a0ec-5ae3256a6203
+              - generic: Quantifying deception patterns in human behavior
+            - link:
+              - /url: /chat/b4cdd4a5-a526-4640-8664-2cf7a6dfabfe
+              - generic: Scott Bessent and the QFS system
+            - link:
+              - /url: /chat/7ff12ec3-c13a-441e-846e-aea112107d99
+              - generic: Learning data science through practical projects
+            - link:
+              - /url: /chat/9e595787-be1d-4b74-a84d-3afb7e89cd1f
+              - generic: Kash Patel UFO disclosure announcement verification
+            - link:
+              - /url: /chat/2d135a9e-9f81-4c6a-92e4-fc52f2e42c43
+              - generic: Asimov's robot laws and AI moral constraints
+            - link:
+              - /url: /chat/e235abf8-1857-4fb6-8d92-b1a82c43b1e4
+              - generic: Chat URL visibility and access restrictions
+            - link:
+              - /url: /chat/d477daac-c87a-405c-a0bd-8da451d50880
+              - generic: LSTM for sentiment analysis and modern alternatives
+            - link:
+              - /url: /chat/8a17c95f-de5c-49a0-9ff5-0f630dd537c2
+              - generic: Retrieval augmented generation explained
+            - link:
+              - /url: /chat/ca004161-19ac-453c-a259-ff1ff43eff65
+              - generic: Alpha level and statistical errors explained
+            - link:
+              - /url: /chat/1cfc2973-ad26-4027-91bd-d9c3e5762787
+              - generic: Updating LinkedIn profile with AI portfolio project
+            - link:
+              - /url: /chat/ec41095d-9d29-479f-bd6a-7eaa78171c72
+              - generic: KNIME LLM Prompter JSON formatting issues
+            - link:
+              - /url: /recents
+              - img
+          - generic:
+            - link:
+              - /url: /downloads
+              - generic:
+                - generic: 
+          - button:
+            - generic:
+              - generic:
+                - generic:
+                  - generic: JC
+            - generic:
+              - img
+    - status [ref=e18]:
+      - generic [ref=e19]: Loading...
+  - region "Notifications (F8)":
+    - list

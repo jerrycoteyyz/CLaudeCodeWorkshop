@@ -1,0 +1,585 @@
+[     112ms] [ERROR] TypeError: Failed to fetch
+    at a (https://assets-proxy.anthropic.com/claude-ai/v2/assets/v1/c34d1f91f-C2WM6H-4.js:1:24087)
+    at mh (https://assets-proxy.anthropic.com/claude-ai/v2/assets/v1/c34d1f91f-C2WM6H-4.js:1:229959)
+    at d (https://assets-proxy.anthropic.com/claude-ai/v2/assets/v1/c34d1f91f-C2WM6H-4.js:2:53573)
+    at Array.map (<anonymous>)
+    at i (https://assets-proxy.anthropic.com/claude-ai/v2/assets/v1/c34d1f91f-C2WM6H-4.js:2:54005)
+    at https://assets-proxy.anthropic.com/claude-ai/v2/assets/v1/c34d1f91f-C2WM6H-4.js:2:54113 @ https://assets-proxy.anthropic.com/claude-ai/v2/assets/v1/c34d1f91f-C2WM6H-4.js:0
+[     401ms] [INFO] [O11Y] [DatadogRUM] Initialized {service: claude-ai, env: production, version: acba5b9595} @ https://assets-proxy.anthropic.com/claude-ai/v2/assets/v1/c34d1f91f-C2WM6H-4.js:0
+[     504ms] [WARNING] [SERVICE_WORKER] Found 1 service worker(s), which are no longer used. Unregistering. @ https://assets-proxy.anthropic.com/claude-ai/v2/assets/v1/c34d1f91f-C2WM6H-4.js:0
+[ 6679156ms] [ERROR] Failed to load resource: net::ERR_QUIC_PROTOCOL_ERROR @ https://claude.ai/v1/sessions/watch:0
+[ 6679161ms] [ERROR] Failed to load resource: net::ERR_QUIC_PROTOCOL_ERROR @ https://claude.ai/v1/sessions/watch:0
+[ 6679265ms] [ERROR] Failed to load resource: net::ERR_NAME_NOT_RESOLVED @ https://browser-intake-us5-datadoghq.com/api/v2/rum?ddsource=browser&dd-api-key=pub71869dceb5b70dba6123af9ca357d1f9&dd-evp-origin-version=6.31.0&dd-evp-origin=browser&dd-request-id=40162113-2d58-4ffe-8c73-b3a226903ffb&batch_time=1780453862232&_dd.api=fetch:0
+[ 6679266ms] [ERROR] Failed to load resource: net::ERR_NAME_NOT_RESOLVED @ https://claude.ai/v1/code/github/batch-branch-status:0
+[ 6679321ms] [ERROR] Failed to load resource: net::ERR_NAME_NOT_RESOLVED @ https://claude.ai/v1/code/github/batch-branch-status?caller=epitaxy-repopr:0
+[ 6679323ms] [ERROR] Failed to load resource: net::ERR_NAME_NOT_RESOLVED @ https://claude.ai/v1/environment_providers/private/organizations/4ab98f76-5d66-4474-b802-efde0360472b/environments:0
+[ 6679326ms] [ERROR] [REACT_QUERY_CLIENT] QueryClient error: TypeError: Failed to fetch
+    at a (https://assets-proxy.anthropic.com/claude-ai/v2/assets/v1/c34d1f91f-C2WM6H-4.js:1:24087)
+    at https://assets-proxy.anthropic.com/claude-ai/v2/assets/v1/c34d1f91f-C2WM6H-4.js:2:70031
+    at https://assets-proxy.anthropic.com/claude-ai/v2/assets/v1/c34d1f91f-C2WM6H-4.js:2:70174
+    at https://assets-proxy.anthropic.com/claude-ai/v2/assets/v1/c34d1f91f-C2WM6H-4.js:2:72210
+    at Object.fetchFn [as fn] (https://assets-proxy.anthropic.com/claude-ai/v2/assets/v1/vendor-query-CSyAqYtT.js:1:9554)
+    at d (https://assets-proxy.anthropic.com/claude-ai/v2/assets/v1/vendor-query-CSyAqYtT.js:1:5061)
+    at Object.start (https://assets-proxy.anthropic.com/claude-ai/v2/assets/v1/vendor-query-CSyAqYtT.js:1:5568)
+    at A.fetch (https://assets-proxy.anthropic.com/claude-ai/v2/assets/v1/vendor-query-CSyAqYtT.js:1:10515)
+    at #K (https://assets-proxy.anthropic.com/claude-ai/v2/assets/v1/vendor-query-CSyAqYtT.js:1:25033)
+    at https://assets-proxy.anthropic.com/claude-ai/v2/assets/v1/vendor-query-CSyAqYtT.js:1:25608 @ https://assets-proxy.anthropic.com/claude-ai/v2/assets/v1/c34d1f91f-C2WM6H-4.js:0
+[ 6679330ms] [ERROR] Failed to load resource: net::ERR_NAME_NOT_RESOLVED @ https://claude.ai/api/organizations/4ab98f76-5d66-4474-b802-efde0360472b/usage:0
+[ 6679332ms] [ERROR] [REACT_QUERY_CLIENT] QueryClient error: TypeError: Failed to fetch
+    at a (https://assets-proxy.anthropic.com/claude-ai/v2/assets/v1/c34d1f91f-C2WM6H-4.js:1:24087)
+    at https://assets-proxy.anthropic.com/claude-ai/v2/assets/v1/c34d1f91f-C2WM6H-4.js:2:70031
+    at https://assets-proxy.anthropic.com/claude-ai/v2/assets/v1/c34d1f91f-C2WM6H-4.js:2:70174
+    at https://assets-proxy.anthropic.com/claude-ai/v2/assets/v1/c34d1f91f-C2WM6H-4.js:2:72210
+    at Object.fetchFn [as fn] (https://assets-proxy.anthropic.com/claude-ai/v2/assets/v1/vendor-query-CSyAqYtT.js:1:9554)
+    at d (https://assets-proxy.anthropic.com/claude-ai/v2/assets/v1/vendor-query-CSyAqYtT.js:1:5061)
+    at Object.start (https://assets-proxy.anthropic.com/claude-ai/v2/assets/v1/vendor-query-CSyAqYtT.js:1:5568)
+    at A.fetch (https://assets-proxy.anthropic.com/claude-ai/v2/assets/v1/vendor-query-CSyAqYtT.js:1:10515)
+    at #K (https://assets-proxy.anthropic.com/claude-ai/v2/assets/v1/vendor-query-CSyAqYtT.js:1:25033)
+    at https://assets-proxy.anthropic.com/claude-ai/v2/assets/v1/vendor-query-CSyAqYtT.js:1:25608 @ https://assets-proxy.anthropic.com/claude-ai/v2/assets/v1/c34d1f91f-C2WM6H-4.js:0
+[ 6682052ms] [ERROR] Failed to load resource: net::ERR_NAME_NOT_RESOLVED @ https://claude.ai/v1/code/github/batch-branch-status?caller=epitaxy-repopr:0
+[ 6682055ms] [ERROR] Failed to load resource: net::ERR_NAME_NOT_RESOLVED @ https://claude.ai/v1/code/github/batch-branch-status:0
+[ 6682056ms] [ERROR] Failed to load resource: net::ERR_NAME_NOT_RESOLVED @ https://claude.ai/v1/sessions/watch:0
+[ 6682070ms] [ERROR] Failed to load resource: net::ERR_NAME_NOT_RESOLVED @ https://browser-intake-us5-datadoghq.com/api/v2/rum?ddsource=browser&dd-api-key=pub71869dceb5b70dba6123af9ca357d1f9&dd-evp-origin-version=6.31.0&dd-evp-origin=browser&dd-request-id=a9ca8736-309a-4ce9-a567-74d0d4f26aa8&batch_time=1780453865301&_dd.api=fetch:0
+[ 6682109ms] [ERROR] Failed to load resource: net::ERR_NAME_NOT_RESOLVED @ https://claude.ai/v1/sessions/watch:0
+[28279463ms] [ERROR] Failed to load resource: net::ERR_NAME_NOT_RESOLVED @ https://claude.ai/v1/code/github/batch-branch-status:0
+[28279465ms] [ERROR] [REACT_QUERY_CLIENT] QueryClient error: TypeError: Failed to fetch
+    at a (https://assets-proxy.anthropic.com/claude-ai/v2/assets/v1/c34d1f91f-C2WM6H-4.js:1:24087)
+    at https://assets-proxy.anthropic.com/claude-ai/v2/assets/v1/c34d1f91f-C2WM6H-4.js:2:70031
+    at queryFn (https://assets-proxy.anthropic.com/claude-ai/v2/assets/v1/index-d5B3q2CO.js:16:155101)
+    at Object.fetchFn [as fn] (https://assets-proxy.anthropic.com/claude-ai/v2/assets/v1/vendor-query-CSyAqYtT.js:1:9554)
+    at d (https://assets-proxy.anthropic.com/claude-ai/v2/assets/v1/vendor-query-CSyAqYtT.js:1:5061)
+    at https://assets-proxy.anthropic.com/claude-ai/v2/assets/v1/vendor-query-CSyAqYtT.js:1:5398 @ https://assets-proxy.anthropic.com/claude-ai/v2/assets/v1/c34d1f91f-C2WM6H-4.js:0
+[28279516ms] [ERROR] Failed to load resource: net::ERR_NAME_NOT_RESOLVED @ https://browser-intake-us5-datadoghq.com/api/v2/rum?ddsource=browser&dd-api-key=pub71869dceb5b70dba6123af9ca357d1f9&dd-evp-origin-version=6.31.0&dd-evp-origin=browser&dd-request-id=43bcd453-8563-4831-8eb7-8ea084e1412d&batch_time=1780475462549&_dd.api=fetch:0
+[28279538ms] [ERROR] Failed to load resource: net::ERR_NAME_NOT_RESOLVED @ https://claude.ai/v1/code/github/batch-branch-status?caller=epitaxy-repopr:0
+[28279539ms] [ERROR] [REACT_QUERY_CLIENT] QueryClient error: TypeError: Failed to fetch
+    at a (https://assets-proxy.anthropic.com/claude-ai/v2/assets/v1/c34d1f91f-C2WM6H-4.js:1:24087)
+    at https://assets-proxy.anthropic.com/claude-ai/v2/assets/v1/c34d1f91f-C2WM6H-4.js:2:70031
+    at xa (https://assets-proxy.anthropic.com/claude-ai/v2/assets/v1/cc3d7c553-pI1IkM1J.js:2:54150)
+    at https://assets-proxy.anthropic.com/claude-ai/v2/assets/v1/cc3d7c553-pI1IkM1J.js:2:51791
+    at Object.discoverPr (https://assets-proxy.anthropic.com/claude-ai/v2/assets/v1/cc3d7c553-pI1IkM1J.js:2:51999)
+    at queryFn (https://assets-proxy.anthropic.com/claude-ai/v2/assets/v1/cc3d7c553-pI1IkM1J.js:2:56515)
+    at Object.fetchFn [as fn] (https://assets-proxy.anthropic.com/claude-ai/v2/assets/v1/vendor-query-CSyAqYtT.js:1:9554)
+    at d (https://assets-proxy.anthropic.com/claude-ai/v2/assets/v1/vendor-query-CSyAqYtT.js:1:5061)
+    at https://assets-proxy.anthropic.com/claude-ai/v2/assets/v1/vendor-query-CSyAqYtT.js:1:5398 @ https://assets-proxy.anthropic.com/claude-ai/v2/assets/v1/c34d1f91f-C2WM6H-4.js:0
+[28279543ms] [ERROR] Failed to load resource: net::ERR_NAME_NOT_RESOLVED @ https://claude.ai/v1/sessions/watch:0
+[28279543ms] [ERROR] Failed to load resource: net::ERR_NAME_NOT_RESOLVED @ https://claude.ai/v1/environment_providers/private/organizations/4ab98f76-5d66-4474-b802-efde0360472b/environments:0
+[28279544ms] [ERROR] [REACT_QUERY_CLIENT] QueryClient error: TypeError: Failed to fetch
+    at a (https://assets-proxy.anthropic.com/claude-ai/v2/assets/v1/c34d1f91f-C2WM6H-4.js:1:24087)
+    at https://assets-proxy.anthropic.com/claude-ai/v2/assets/v1/c34d1f91f-C2WM6H-4.js:2:70031
+    at https://assets-proxy.anthropic.com/claude-ai/v2/assets/v1/c34d1f91f-C2WM6H-4.js:2:70174
+    at https://assets-proxy.anthropic.com/claude-ai/v2/assets/v1/c34d1f91f-C2WM6H-4.js:2:72210
+    at Object.fetchFn [as fn] (https://assets-proxy.anthropic.com/claude-ai/v2/assets/v1/vendor-query-CSyAqYtT.js:1:9554)
+    at d (https://assets-proxy.anthropic.com/claude-ai/v2/assets/v1/vendor-query-CSyAqYtT.js:1:5061)
+    at Object.start (https://assets-proxy.anthropic.com/claude-ai/v2/assets/v1/vendor-query-CSyAqYtT.js:1:5568)
+    at A.fetch (https://assets-proxy.anthropic.com/claude-ai/v2/assets/v1/vendor-query-CSyAqYtT.js:1:10515)
+    at #K (https://assets-proxy.anthropic.com/claude-ai/v2/assets/v1/vendor-query-CSyAqYtT.js:1:25033)
+    at https://assets-proxy.anthropic.com/claude-ai/v2/assets/v1/vendor-query-CSyAqYtT.js:1:25608 @ https://assets-proxy.anthropic.com/claude-ai/v2/assets/v1/c34d1f91f-C2WM6H-4.js:0
+[28279546ms] [ERROR] Failed to load resource: net::ERR_NAME_NOT_RESOLVED @ https://claude.ai/api/organizations/4ab98f76-5d66-4474-b802-efde0360472b/usage:0
+[28279547ms] [ERROR] [REACT_QUERY_CLIENT] QueryClient error: TypeError: Failed to fetch
+    at a (https://assets-proxy.anthropic.com/claude-ai/v2/assets/v1/c34d1f91f-C2WM6H-4.js:1:24087)
+    at https://assets-proxy.anthropic.com/claude-ai/v2/assets/v1/c34d1f91f-C2WM6H-4.js:2:70031
+    at https://assets-proxy.anthropic.com/claude-ai/v2/assets/v1/c34d1f91f-C2WM6H-4.js:2:70174
+    at https://assets-proxy.anthropic.com/claude-ai/v2/assets/v1/c34d1f91f-C2WM6H-4.js:2:72210
+    at Object.fetchFn [as fn] (https://assets-proxy.anthropic.com/claude-ai/v2/assets/v1/vendor-query-CSyAqYtT.js:1:9554)
+    at d (https://assets-proxy.anthropic.com/claude-ai/v2/assets/v1/vendor-query-CSyAqYtT.js:1:5061)
+    at Object.start (https://assets-proxy.anthropic.com/claude-ai/v2/assets/v1/vendor-query-CSyAqYtT.js:1:5568)
+    at A.fetch (https://assets-proxy.anthropic.com/claude-ai/v2/assets/v1/vendor-query-CSyAqYtT.js:1:10515)
+    at #K (https://assets-proxy.anthropic.com/claude-ai/v2/assets/v1/vendor-query-CSyAqYtT.js:1:25033)
+    at https://assets-proxy.anthropic.com/claude-ai/v2/assets/v1/vendor-query-CSyAqYtT.js:1:25608 @ https://assets-proxy.anthropic.com/claude-ai/v2/assets/v1/c34d1f91f-C2WM6H-4.js:0
+[28279814ms] [ERROR] Failed to load resource: net::ERR_NAME_NOT_RESOLVED @ https://claude.ai/v1/sessions/watch:0
+[50097521ms] [ERROR] Failed to load resource: net::ERR_NAME_NOT_RESOLVED @ https://browser-intake-us5-datadoghq.com/api/v2/rum?ddsource=browser&dd-api-key=pub71869dceb5b70dba6123af9ca357d1f9&dd-evp-origin-version=6.31.0&dd-evp-origin=browser&dd-request-id=d72f250a-169b-4d88-b090-55da46b8df3c&batch_time=1780497280716&_dd.api=fetch:0
+[50097522ms] [ERROR] Failed to load resource: net::ERR_NAME_NOT_RESOLVED @ https://claude.ai/api/organizations/4ab98f76-5d66-4474-b802-efde0360472b/usage:0
+[50097523ms] [ERROR] [REACT_QUERY_CLIENT] QueryClient error: TypeError: Failed to fetch
+    at a (https://assets-proxy.anthropic.com/claude-ai/v2/assets/v1/c34d1f91f-C2WM6H-4.js:1:24087)
+    at https://assets-proxy.anthropic.com/claude-ai/v2/assets/v1/c34d1f91f-C2WM6H-4.js:2:70031
+    at https://assets-proxy.anthropic.com/claude-ai/v2/assets/v1/c34d1f91f-C2WM6H-4.js:2:70174
+    at https://assets-proxy.anthropic.com/claude-ai/v2/assets/v1/c34d1f91f-C2WM6H-4.js:2:72210
+    at Object.fetchFn [as fn] (https://assets-proxy.anthropic.com/claude-ai/v2/assets/v1/vendor-query-CSyAqYtT.js:1:9554)
+    at d (https://assets-proxy.anthropic.com/claude-ai/v2/assets/v1/vendor-query-CSyAqYtT.js:1:5061)
+    at Object.start (https://assets-proxy.anthropic.com/claude-ai/v2/assets/v1/vendor-query-CSyAqYtT.js:1:5568)
+    at A.fetch (https://assets-proxy.anthropic.com/claude-ai/v2/assets/v1/vendor-query-CSyAqYtT.js:1:10515)
+    at #K (https://assets-proxy.anthropic.com/claude-ai/v2/assets/v1/vendor-query-CSyAqYtT.js:1:25033)
+    at https://assets-proxy.anthropic.com/claude-ai/v2/assets/v1/vendor-query-CSyAqYtT.js:1:25608 @ https://assets-proxy.anthropic.com/claude-ai/v2/assets/v1/c34d1f91f-C2WM6H-4.js:0
+[50097526ms] [ERROR] Failed to load resource: net::ERR_NAME_NOT_RESOLVED @ https://claude.ai/v1/environment_providers/private/organizations/4ab98f76-5d66-4474-b802-efde0360472b/environments:0
+[50097529ms] [ERROR] [REACT_QUERY_CLIENT] QueryClient error: TypeError: Failed to fetch
+    at a (https://assets-proxy.anthropic.com/claude-ai/v2/assets/v1/c34d1f91f-C2WM6H-4.js:1:24087)
+    at https://assets-proxy.anthropic.com/claude-ai/v2/assets/v1/c34d1f91f-C2WM6H-4.js:2:70031
+    at https://assets-proxy.anthropic.com/claude-ai/v2/assets/v1/c34d1f91f-C2WM6H-4.js:2:70174
+    at https://assets-proxy.anthropic.com/claude-ai/v2/assets/v1/c34d1f91f-C2WM6H-4.js:2:72210
+    at Object.fetchFn [as fn] (https://assets-proxy.anthropic.com/claude-ai/v2/assets/v1/vendor-query-CSyAqYtT.js:1:9554)
+    at d (https://assets-proxy.anthropic.com/claude-ai/v2/assets/v1/vendor-query-CSyAqYtT.js:1:5061)
+    at Object.start (https://assets-proxy.anthropic.com/claude-ai/v2/assets/v1/vendor-query-CSyAqYtT.js:1:5568)
+    at A.fetch (https://assets-proxy.anthropic.com/claude-ai/v2/assets/v1/vendor-query-CSyAqYtT.js:1:10515)
+    at #K (https://assets-proxy.anthropic.com/claude-ai/v2/assets/v1/vendor-query-CSyAqYtT.js:1:25033)
+    at https://assets-proxy.anthropic.com/claude-ai/v2/assets/v1/vendor-query-CSyAqYtT.js:1:25608 @ https://assets-proxy.anthropic.com/claude-ai/v2/assets/v1/c34d1f91f-C2WM6H-4.js:0
+[50097531ms] [ERROR] Failed to load resource: net::ERR_NAME_NOT_RESOLVED @ https://claude.ai/v1/code/github/batch-branch-status:0
+[50097532ms] [ERROR] Failed to load resource: net::ERR_NAME_NOT_RESOLVED @ https://claude.ai/v1/code/github/batch-branch-status?caller=epitaxy-repopr:0
+[50097533ms] [ERROR] Failed to load resource: net::ERR_NAME_NOT_RESOLVED @ https://claude.ai/v1/sessions/watch:0
+[50097533ms] [ERROR] Failed to load resource: net::ERR_NAME_NOT_RESOLVED @ https://claude.ai/v1/sessions/watch:0
+[50099983ms] [ERROR] Failed to load resource: net::ERR_NAME_NOT_RESOLVED @ https://claude.ai/v1/code/github/batch-branch-status:0
+[50099984ms] [ERROR] Failed to load resource: net::ERR_NAME_NOT_RESOLVED @ https://claude.ai/v1/code/github/batch-branch-status?caller=epitaxy-repopr:0
+[50103943ms] [ERROR] Failed to load resource: net::ERR_NAME_NOT_RESOLVED @ https://claude.ai/v1/code/github/batch-branch-status?caller=epitaxy-repopr:0
+[50103943ms] [ERROR] [REACT_QUERY_CLIENT] QueryClient error: TypeError: Failed to fetch
+    at a (https://assets-proxy.anthropic.com/claude-ai/v2/assets/v1/c34d1f91f-C2WM6H-4.js:1:24087)
+    at https://assets-proxy.anthropic.com/claude-ai/v2/assets/v1/c34d1f91f-C2WM6H-4.js:2:70031
+    at xa (https://assets-proxy.anthropic.com/claude-ai/v2/assets/v1/cc3d7c553-pI1IkM1J.js:2:54150)
+    at https://assets-proxy.anthropic.com/claude-ai/v2/assets/v1/cc3d7c553-pI1IkM1J.js:2:51791
+    at Object.discoverPr (https://assets-proxy.anthropic.com/claude-ai/v2/assets/v1/cc3d7c553-pI1IkM1J.js:2:51999)
+    at queryFn (https://assets-proxy.anthropic.com/claude-ai/v2/assets/v1/cc3d7c553-pI1IkM1J.js:2:56515)
+    at Object.fetchFn [as fn] (https://assets-proxy.anthropic.com/claude-ai/v2/assets/v1/vendor-query-CSyAqYtT.js:1:9554)
+    at d (https://assets-proxy.anthropic.com/claude-ai/v2/assets/v1/vendor-query-CSyAqYtT.js:1:5061)
+    at https://assets-proxy.anthropic.com/claude-ai/v2/assets/v1/vendor-query-CSyAqYtT.js:1:5398 @ https://assets-proxy.anthropic.com/claude-ai/v2/assets/v1/c34d1f91f-C2WM6H-4.js:0
+[50103947ms] [ERROR] Failed to load resource: net::ERR_NAME_NOT_RESOLVED @ https://claude.ai/v1/code/github/batch-branch-status:0
+[50103947ms] [ERROR] [REACT_QUERY_CLIENT] QueryClient error: TypeError: Failed to fetch
+    at a (https://assets-proxy.anthropic.com/claude-ai/v2/assets/v1/c34d1f91f-C2WM6H-4.js:1:24087)
+    at https://assets-proxy.anthropic.com/claude-ai/v2/assets/v1/c34d1f91f-C2WM6H-4.js:2:70031
+    at queryFn (https://assets-proxy.anthropic.com/claude-ai/v2/assets/v1/index-d5B3q2CO.js:16:155101)
+    at Object.fetchFn [as fn] (https://assets-proxy.anthropic.com/claude-ai/v2/assets/v1/vendor-query-CSyAqYtT.js:1:9554)
+    at d (https://assets-proxy.anthropic.com/claude-ai/v2/assets/v1/vendor-query-CSyAqYtT.js:1:5061)
+    at https://assets-proxy.anthropic.com/claude-ai/v2/assets/v1/vendor-query-CSyAqYtT.js:1:5398 @ https://assets-proxy.anthropic.com/claude-ai/v2/assets/v1/c34d1f91f-C2WM6H-4.js:0
+[50114034ms] [ERROR] Failed to load resource: net::ERR_NAME_NOT_RESOLVED @ https://claude.ai/v1/sessions/watch:0
+[50114049ms] [ERROR] Failed to load resource: net::ERR_NAME_NOT_RESOLVED @ https://claude.ai/v1/sessions/watch:0
+[50129626ms] [ERROR] Failed to load resource: net::ERR_NAME_NOT_RESOLVED @ https://browser-intake-us5-datadoghq.com/api/v2/rum?ddsource=browser&dd-api-key=pub71869dceb5b70dba6123af9ca357d1f9&dd-evp-origin-version=6.31.0&dd-evp-origin=browser&dd-request-id=d81ea156-ed31-49dd-91cd-55f0a305a653&batch_time=1780497312867&_dd.api=fetch:0
+[50146575ms] [ERROR] Failed to load resource: net::ERR_NAME_NOT_RESOLVED @ https://claude.ai/v1/sessions/watch:0
+[50146904ms] [ERROR] Failed to load resource: net::ERR_NAME_NOT_RESOLVED @ https://claude.ai/v1/sessions/watch:0
+[50157544ms] [ERROR] Failed to load resource: net::ERR_NAME_NOT_RESOLVED @ https://claude.ai/v1/environment_providers/private/organizations/4ab98f76-5d66-4474-b802-efde0360472b/environments:0
+[50157544ms] [ERROR] [REACT_QUERY_CLIENT] QueryClient error: TypeError: Failed to fetch
+    at a (https://assets-proxy.anthropic.com/claude-ai/v2/assets/v1/c34d1f91f-C2WM6H-4.js:1:24087)
+    at https://assets-proxy.anthropic.com/claude-ai/v2/assets/v1/c34d1f91f-C2WM6H-4.js:2:70031
+    at https://assets-proxy.anthropic.com/claude-ai/v2/assets/v1/c34d1f91f-C2WM6H-4.js:2:70174
+    at https://assets-proxy.anthropic.com/claude-ai/v2/assets/v1/c34d1f91f-C2WM6H-4.js:2:72210
+    at Object.fetchFn [as fn] (https://assets-proxy.anthropic.com/claude-ai/v2/assets/v1/vendor-query-CSyAqYtT.js:1:9554)
+    at d (https://assets-proxy.anthropic.com/claude-ai/v2/assets/v1/vendor-query-CSyAqYtT.js:1:5061)
+    at Object.start (https://assets-proxy.anthropic.com/claude-ai/v2/assets/v1/vendor-query-CSyAqYtT.js:1:5568)
+    at A.fetch (https://assets-proxy.anthropic.com/claude-ai/v2/assets/v1/vendor-query-CSyAqYtT.js:1:10515)
+    at #K (https://assets-proxy.anthropic.com/claude-ai/v2/assets/v1/vendor-query-CSyAqYtT.js:1:25033)
+    at https://assets-proxy.anthropic.com/claude-ai/v2/assets/v1/vendor-query-CSyAqYtT.js:1:25608 @ https://assets-proxy.anthropic.com/claude-ai/v2/assets/v1/c34d1f91f-C2WM6H-4.js:0
+[50162051ms] [ERROR] Failed to load resource: net::ERR_NAME_NOT_RESOLVED @ https://browser-intake-us5-datadoghq.com/api/v2/rum?ddsource=browser&dd-api-key=pub71869dceb5b70dba6123af9ca357d1f9&dd-evp-origin-version=6.31.0&dd-evp-origin=browser&dd-request-id=c4f56770-e84e-4097-9dd6-ee73ff46a7d9&batch_time=1780497345292&_dd.api=fetch:0
+[50207179ms] [ERROR] Failed to load resource: net::ERR_NAME_NOT_RESOLVED @ https://claude.ai/v1/sessions/watch:0
+[50207538ms] [ERROR] Failed to load resource: net::ERR_NAME_NOT_RESOLVED @ https://claude.ai/v1/sessions/watch:0
+[50217568ms] [ERROR] Failed to load resource: net::ERR_NAME_NOT_RESOLVED @ https://claude.ai/v1/environment_providers/private/organizations/4ab98f76-5d66-4474-b802-efde0360472b/environments:0
+[50217568ms] [ERROR] [REACT_QUERY_CLIENT] QueryClient error: TypeError: Failed to fetch
+    at a (https://assets-proxy.anthropic.com/claude-ai/v2/assets/v1/c34d1f91f-C2WM6H-4.js:1:24087)
+    at https://assets-proxy.anthropic.com/claude-ai/v2/assets/v1/c34d1f91f-C2WM6H-4.js:2:70031
+    at https://assets-proxy.anthropic.com/claude-ai/v2/assets/v1/c34d1f91f-C2WM6H-4.js:2:70174
+    at https://assets-proxy.anthropic.com/claude-ai/v2/assets/v1/c34d1f91f-C2WM6H-4.js:2:72210
+    at Object.fetchFn [as fn] (https://assets-proxy.anthropic.com/claude-ai/v2/assets/v1/vendor-query-CSyAqYtT.js:1:9554)
+    at d (https://assets-proxy.anthropic.com/claude-ai/v2/assets/v1/vendor-query-CSyAqYtT.js:1:5061)
+    at Object.start (https://assets-proxy.anthropic.com/claude-ai/v2/assets/v1/vendor-query-CSyAqYtT.js:1:5568)
+    at A.fetch (https://assets-proxy.anthropic.com/claude-ai/v2/assets/v1/vendor-query-CSyAqYtT.js:1:10515)
+    at #K (https://assets-proxy.anthropic.com/claude-ai/v2/assets/v1/vendor-query-CSyAqYtT.js:1:25033)
+    at https://assets-proxy.anthropic.com/claude-ai/v2/assets/v1/vendor-query-CSyAqYtT.js:1:25608 @ https://assets-proxy.anthropic.com/claude-ai/v2/assets/v1/c34d1f91f-C2WM6H-4.js:0
+[50223959ms] [ERROR] Failed to load resource: net::ERR_NAME_NOT_RESOLVED @ https://claude.ai/v1/code/github/batch-branch-status?caller=epitaxy-repopr:0
+[50223959ms] [ERROR] Failed to load resource: net::ERR_NAME_NOT_RESOLVED @ https://claude.ai/v1/code/github/batch-branch-status:0
+[50224969ms] [ERROR] Failed to load resource: net::ERR_NAME_NOT_RESOLVED @ https://claude.ai/v1/code/github/batch-branch-status:0
+[50224969ms] [ERROR] Failed to load resource: net::ERR_NAME_NOT_RESOLVED @ https://claude.ai/v1/code/github/batch-branch-status?caller=epitaxy-repopr:0
+[50226979ms] [ERROR] Failed to load resource: net::ERR_NAME_NOT_RESOLVED @ https://claude.ai/v1/code/github/batch-branch-status:0
+[50226979ms] [ERROR] [REACT_QUERY_CLIENT] QueryClient error: TypeError: Failed to fetch
+    at a (https://assets-proxy.anthropic.com/claude-ai/v2/assets/v1/c34d1f91f-C2WM6H-4.js:1:24087)
+    at https://assets-proxy.anthropic.com/claude-ai/v2/assets/v1/c34d1f91f-C2WM6H-4.js:2:70031
+    at queryFn (https://assets-proxy.anthropic.com/claude-ai/v2/assets/v1/index-d5B3q2CO.js:16:155101)
+    at Object.fetchFn [as fn] (https://assets-proxy.anthropic.com/claude-ai/v2/assets/v1/vendor-query-CSyAqYtT.js:1:9554)
+    at d (https://assets-proxy.anthropic.com/claude-ai/v2/assets/v1/vendor-query-CSyAqYtT.js:1:5061)
+    at https://assets-proxy.anthropic.com/claude-ai/v2/assets/v1/vendor-query-CSyAqYtT.js:1:5398 @ https://assets-proxy.anthropic.com/claude-ai/v2/assets/v1/c34d1f91f-C2WM6H-4.js:0
+[50226980ms] [ERROR] Failed to load resource: net::ERR_NAME_NOT_RESOLVED @ https://claude.ai/v1/code/github/batch-branch-status?caller=epitaxy-repopr:0
+[50226981ms] [ERROR] [REACT_QUERY_CLIENT] QueryClient error: TypeError: Failed to fetch
+    at a (https://assets-proxy.anthropic.com/claude-ai/v2/assets/v1/c34d1f91f-C2WM6H-4.js:1:24087)
+    at https://assets-proxy.anthropic.com/claude-ai/v2/assets/v1/c34d1f91f-C2WM6H-4.js:2:70031
+    at xa (https://assets-proxy.anthropic.com/claude-ai/v2/assets/v1/cc3d7c553-pI1IkM1J.js:2:54150)
+    at https://assets-proxy.anthropic.com/claude-ai/v2/assets/v1/cc3d7c553-pI1IkM1J.js:2:51791
+    at Object.discoverPr (https://assets-proxy.anthropic.com/claude-ai/v2/assets/v1/cc3d7c553-pI1IkM1J.js:2:51999)
+    at queryFn (https://assets-proxy.anthropic.com/claude-ai/v2/assets/v1/cc3d7c553-pI1IkM1J.js:2:56515)
+    at Object.fetchFn [as fn] (https://assets-proxy.anthropic.com/claude-ai/v2/assets/v1/vendor-query-CSyAqYtT.js:1:9554)
+    at d (https://assets-proxy.anthropic.com/claude-ai/v2/assets/v1/vendor-query-CSyAqYtT.js:1:5061)
+    at https://assets-proxy.anthropic.com/claude-ai/v2/assets/v1/vendor-query-CSyAqYtT.js:1:5398 @ https://assets-proxy.anthropic.com/claude-ai/v2/assets/v1/c34d1f91f-C2WM6H-4.js:0
+[50226984ms] [ERROR] Failed to load resource: net::ERR_NAME_NOT_RESOLVED @ https://browser-intake-us5-datadoghq.com/api/v2/rum?ddsource=browser&dd-api-key=pub71869dceb5b70dba6123af9ca357d1f9&dd-evp-origin-version=6.31.0&dd-evp-origin=browser&dd-request-id=50165cde-875c-4df5-8814-5107a158529a&batch_time=1780497410226&_dd.api=fetch:0
+[50256996ms] [ERROR] Failed to load resource: net::ERR_NAME_NOT_RESOLVED @ https://browser-intake-us5-datadoghq.com/api/v2/rum?ddsource=browser&dd-api-key=pub71869dceb5b70dba6123af9ca357d1f9&dd-evp-origin-version=6.31.0&dd-evp-origin=browser&dd-request-id=6be94cad-fba7-4370-9f17-043ae67c9423&batch_time=1780497440237&_dd.api=fetch:0
+[50267936ms] [ERROR] Failed to load resource: net::ERR_NAME_NOT_RESOLVED @ https://claude.ai/v1/sessions/watch:0
+[50268014ms] [ERROR] Failed to load resource: net::ERR_NAME_NOT_RESOLVED @ https://claude.ai/v1/sessions/watch:0
+[50277590ms] [ERROR] Failed to load resource: net::ERR_NAME_NOT_RESOLVED @ https://claude.ai/v1/environment_providers/private/organizations/4ab98f76-5d66-4474-b802-efde0360472b/environments:0
+[50277591ms] [ERROR] [REACT_QUERY_CLIENT] QueryClient error: TypeError: Failed to fetch
+    at a (https://assets-proxy.anthropic.com/claude-ai/v2/assets/v1/c34d1f91f-C2WM6H-4.js:1:24087)
+    at https://assets-proxy.anthropic.com/claude-ai/v2/assets/v1/c34d1f91f-C2WM6H-4.js:2:70031
+    at https://assets-proxy.anthropic.com/claude-ai/v2/assets/v1/c34d1f91f-C2WM6H-4.js:2:70174
+    at https://assets-proxy.anthropic.com/claude-ai/v2/assets/v1/c34d1f91f-C2WM6H-4.js:2:72210
+    at Object.fetchFn [as fn] (https://assets-proxy.anthropic.com/claude-ai/v2/assets/v1/vendor-query-CSyAqYtT.js:1:9554)
+    at d (https://assets-proxy.anthropic.com/claude-ai/v2/assets/v1/vendor-query-CSyAqYtT.js:1:5061)
+    at Object.start (https://assets-proxy.anthropic.com/claude-ai/v2/assets/v1/vendor-query-CSyAqYtT.js:1:5568)
+    at A.fetch (https://assets-proxy.anthropic.com/claude-ai/v2/assets/v1/vendor-query-CSyAqYtT.js:1:10515)
+    at #K (https://assets-proxy.anthropic.com/claude-ai/v2/assets/v1/vendor-query-CSyAqYtT.js:1:25033)
+    at https://assets-proxy.anthropic.com/claude-ai/v2/assets/v1/vendor-query-CSyAqYtT.js:1:25608 @ https://assets-proxy.anthropic.com/claude-ai/v2/assets/v1/c34d1f91f-C2WM6H-4.js:0
+[50297946ms] [ERROR] Failed to load resource: net::ERR_NAME_NOT_RESOLVED @ https://browser-intake-us5-datadoghq.com/api/v2/rum?ddsource=browser&dd-api-key=pub71869dceb5b70dba6123af9ca357d1f9&dd-evp-origin-version=6.31.0&dd-evp-origin=browser&dd-request-id=d0284d65-0a33-4572-ae44-1d2257c5db5c&batch_time=1780497481188&_dd.api=fetch:0
+[50328355ms] [ERROR] Failed to load resource: net::ERR_NAME_NOT_RESOLVED @ https://claude.ai/v1/sessions/watch:0
+[50328604ms] [ERROR] Failed to load resource: net::ERR_NAME_NOT_RESOLVED @ https://claude.ai/v1/sessions/watch:0
+[50337615ms] [ERROR] Failed to load resource: net::ERR_NAME_NOT_RESOLVED @ https://claude.ai/v1/environment_providers/private/organizations/4ab98f76-5d66-4474-b802-efde0360472b/environments:0
+[50337615ms] [ERROR] [REACT_QUERY_CLIENT] QueryClient error: TypeError: Failed to fetch
+    at a (https://assets-proxy.anthropic.com/claude-ai/v2/assets/v1/c34d1f91f-C2WM6H-4.js:1:24087)
+    at https://assets-proxy.anthropic.com/claude-ai/v2/assets/v1/c34d1f91f-C2WM6H-4.js:2:70031
+    at https://assets-proxy.anthropic.com/claude-ai/v2/assets/v1/c34d1f91f-C2WM6H-4.js:2:70174
+    at https://assets-proxy.anthropic.com/claude-ai/v2/assets/v1/c34d1f91f-C2WM6H-4.js:2:72210
+    at Object.fetchFn [as fn] (https://assets-proxy.anthropic.com/claude-ai/v2/assets/v1/vendor-query-CSyAqYtT.js:1:9554)
+    at d (https://assets-proxy.anthropic.com/claude-ai/v2/assets/v1/vendor-query-CSyAqYtT.js:1:5061)
+    at Object.start (https://assets-proxy.anthropic.com/claude-ai/v2/assets/v1/vendor-query-CSyAqYtT.js:1:5568)
+    at A.fetch (https://assets-proxy.anthropic.com/claude-ai/v2/assets/v1/vendor-query-CSyAqYtT.js:1:10515)
+    at #K (https://assets-proxy.anthropic.com/claude-ai/v2/assets/v1/vendor-query-CSyAqYtT.js:1:25033)
+    at https://assets-proxy.anthropic.com/claude-ai/v2/assets/v1/vendor-query-CSyAqYtT.js:1:25608 @ https://assets-proxy.anthropic.com/claude-ai/v2/assets/v1/c34d1f91f-C2WM6H-4.js:0
+[50346989ms] [ERROR] Failed to load resource: net::ERR_NAME_NOT_RESOLVED @ https://claude.ai/v1/code/github/batch-branch-status:0
+[50346990ms] [ERROR] Failed to load resource: net::ERR_NAME_NOT_RESOLVED @ https://claude.ai/v1/code/github/batch-branch-status?caller=epitaxy-repopr:0
+[50348001ms] [ERROR] Failed to load resource: net::ERR_NAME_NOT_RESOLVED @ https://claude.ai/v1/code/github/batch-branch-status?caller=epitaxy-repopr:0
+[50348002ms] [ERROR] Failed to load resource: net::ERR_NAME_NOT_RESOLVED @ https://claude.ai/v1/code/github/batch-branch-status:0
+[50350008ms] [ERROR] Failed to load resource: net::ERR_NAME_NOT_RESOLVED @ https://claude.ai/v1/code/github/batch-branch-status?caller=epitaxy-repopr:0
+[50350008ms] [ERROR] [REACT_QUERY_CLIENT] QueryClient error: TypeError: Failed to fetch
+    at a (https://assets-proxy.anthropic.com/claude-ai/v2/assets/v1/c34d1f91f-C2WM6H-4.js:1:24087)
+    at https://assets-proxy.anthropic.com/claude-ai/v2/assets/v1/c34d1f91f-C2WM6H-4.js:2:70031
+    at xa (https://assets-proxy.anthropic.com/claude-ai/v2/assets/v1/cc3d7c553-pI1IkM1J.js:2:54150)
+    at https://assets-proxy.anthropic.com/claude-ai/v2/assets/v1/cc3d7c553-pI1IkM1J.js:2:51791
+    at Object.discoverPr (https://assets-proxy.anthropic.com/claude-ai/v2/assets/v1/cc3d7c553-pI1IkM1J.js:2:51999)
+    at queryFn (https://assets-proxy.anthropic.com/claude-ai/v2/assets/v1/cc3d7c553-pI1IkM1J.js:2:56515)
+    at Object.fetchFn [as fn] (https://assets-proxy.anthropic.com/claude-ai/v2/assets/v1/vendor-query-CSyAqYtT.js:1:9554)
+    at d (https://assets-proxy.anthropic.com/claude-ai/v2/assets/v1/vendor-query-CSyAqYtT.js:1:5061)
+    at https://assets-proxy.anthropic.com/claude-ai/v2/assets/v1/vendor-query-CSyAqYtT.js:1:5398 @ https://assets-proxy.anthropic.com/claude-ai/v2/assets/v1/c34d1f91f-C2WM6H-4.js:0
+[50350011ms] [ERROR] Failed to load resource: net::ERR_NAME_NOT_RESOLVED @ https://claude.ai/v1/code/github/batch-branch-status:0
+[50350011ms] [ERROR] [REACT_QUERY_CLIENT] QueryClient error: TypeError: Failed to fetch
+    at a (https://assets-proxy.anthropic.com/claude-ai/v2/assets/v1/c34d1f91f-C2WM6H-4.js:1:24087)
+    at https://assets-proxy.anthropic.com/claude-ai/v2/assets/v1/c34d1f91f-C2WM6H-4.js:2:70031
+    at queryFn (https://assets-proxy.anthropic.com/claude-ai/v2/assets/v1/index-d5B3q2CO.js:16:155101)
+    at Object.fetchFn [as fn] (https://assets-proxy.anthropic.com/claude-ai/v2/assets/v1/vendor-query-CSyAqYtT.js:1:9554)
+    at d (https://assets-proxy.anthropic.com/claude-ai/v2/assets/v1/vendor-query-CSyAqYtT.js:1:5061)
+    at https://assets-proxy.anthropic.com/claude-ai/v2/assets/v1/vendor-query-CSyAqYtT.js:1:5398 @ https://assets-proxy.anthropic.com/claude-ai/v2/assets/v1/c34d1f91f-C2WM6H-4.js:0
+[50350012ms] [ERROR] Failed to load resource: net::ERR_NAME_NOT_RESOLVED @ https://browser-intake-us5-datadoghq.com/api/v2/rum?ddsource=browser&dd-api-key=pub71869dceb5b70dba6123af9ca357d1f9&dd-evp-origin-version=6.31.0&dd-evp-origin=browser&dd-request-id=37bb0dce-1614-40d1-a2cb-c1885cf753b8&batch_time=1780497533254&_dd.api=fetch:0
+[50380016ms] [ERROR] Failed to load resource: net::ERR_NAME_NOT_RESOLVED @ https://browser-intake-us5-datadoghq.com/api/v2/rum?ddsource=browser&dd-api-key=pub71869dceb5b70dba6123af9ca357d1f9&dd-evp-origin-version=6.31.0&dd-evp-origin=browser&dd-request-id=7615a33c-39a8-449d-a615-d0844fd75f3f&batch_time=1780497563257&_dd.api=fetch:0
+[50388690ms] [ERROR] Failed to load resource: net::ERR_NAME_NOT_RESOLVED @ https://claude.ai/v1/sessions/watch:0
+[50388922ms] [ERROR] Failed to load resource: net::ERR_NAME_NOT_RESOLVED @ https://claude.ai/v1/sessions/watch:0
+[50397536ms] [ERROR] Failed to load resource: net::ERR_NAME_NOT_RESOLVED @ https://claude.ai/api/organizations/4ab98f76-5d66-4474-b802-efde0360472b/usage:0
+[50397537ms] [ERROR] [REACT_QUERY_CLIENT] QueryClient error: TypeError: Failed to fetch
+    at a (https://assets-proxy.anthropic.com/claude-ai/v2/assets/v1/c34d1f91f-C2WM6H-4.js:1:24087)
+    at https://assets-proxy.anthropic.com/claude-ai/v2/assets/v1/c34d1f91f-C2WM6H-4.js:2:70031
+    at https://assets-proxy.anthropic.com/claude-ai/v2/assets/v1/c34d1f91f-C2WM6H-4.js:2:70174
+    at https://assets-proxy.anthropic.com/claude-ai/v2/assets/v1/c34d1f91f-C2WM6H-4.js:2:72210
+    at Object.fetchFn [as fn] (https://assets-proxy.anthropic.com/claude-ai/v2/assets/v1/vendor-query-CSyAqYtT.js:1:9554)
+    at d (https://assets-proxy.anthropic.com/claude-ai/v2/assets/v1/vendor-query-CSyAqYtT.js:1:5061)
+    at Object.start (https://assets-proxy.anthropic.com/claude-ai/v2/assets/v1/vendor-query-CSyAqYtT.js:1:5568)
+    at A.fetch (https://assets-proxy.anthropic.com/claude-ai/v2/assets/v1/vendor-query-CSyAqYtT.js:1:10515)
+    at #K (https://assets-proxy.anthropic.com/claude-ai/v2/assets/v1/vendor-query-CSyAqYtT.js:1:25033)
+    at https://assets-proxy.anthropic.com/claude-ai/v2/assets/v1/vendor-query-CSyAqYtT.js:1:25608 @ https://assets-proxy.anthropic.com/claude-ai/v2/assets/v1/c34d1f91f-C2WM6H-4.js:0
+[50397636ms] [ERROR] Failed to load resource: net::ERR_NAME_NOT_RESOLVED @ https://claude.ai/v1/environment_providers/private/organizations/4ab98f76-5d66-4474-b802-efde0360472b/environments:0
+[50397636ms] [ERROR] [REACT_QUERY_CLIENT] QueryClient error: TypeError: Failed to fetch
+    at a (https://assets-proxy.anthropic.com/claude-ai/v2/assets/v1/c34d1f91f-C2WM6H-4.js:1:24087)
+    at https://assets-proxy.anthropic.com/claude-ai/v2/assets/v1/c34d1f91f-C2WM6H-4.js:2:70031
+    at https://assets-proxy.anthropic.com/claude-ai/v2/assets/v1/c34d1f91f-C2WM6H-4.js:2:70174
+    at https://assets-proxy.anthropic.com/claude-ai/v2/assets/v1/c34d1f91f-C2WM6H-4.js:2:72210
+    at Object.fetchFn [as fn] (https://assets-proxy.anthropic.com/claude-ai/v2/assets/v1/vendor-query-CSyAqYtT.js:1:9554)
+    at d (https://assets-proxy.anthropic.com/claude-ai/v2/assets/v1/vendor-query-CSyAqYtT.js:1:5061)
+    at Object.start (https://assets-proxy.anthropic.com/claude-ai/v2/assets/v1/vendor-query-CSyAqYtT.js:1:5568)
+    at A.fetch (https://assets-proxy.anthropic.com/claude-ai/v2/assets/v1/vendor-query-CSyAqYtT.js:1:10515)
+    at #K (https://assets-proxy.anthropic.com/claude-ai/v2/assets/v1/vendor-query-CSyAqYtT.js:1:25033)
+    at https://assets-proxy.anthropic.com/claude-ai/v2/assets/v1/vendor-query-CSyAqYtT.js:1:25608 @ https://assets-proxy.anthropic.com/claude-ai/v2/assets/v1/c34d1f91f-C2WM6H-4.js:0
+[50418698ms] [ERROR] Failed to load resource: net::ERR_NAME_NOT_RESOLVED @ https://browser-intake-us5-datadoghq.com/api/v2/rum?ddsource=browser&dd-api-key=pub71869dceb5b70dba6123af9ca357d1f9&dd-evp-origin-version=6.31.0&dd-evp-origin=browser&dd-request-id=d930cc99-4ad4-4471-8c60-fde5270caa38&batch_time=1780497601939&_dd.api=fetch:0
+[50448883ms] [ERROR] Failed to load resource: net::ERR_NAME_NOT_RESOLVED @ https://claude.ai/v1/sessions/watch:0
+[50449302ms] [ERROR] Failed to load resource: net::ERR_NAME_NOT_RESOLVED @ https://claude.ai/v1/sessions/watch:0
+[50457662ms] [ERROR] Failed to load resource: net::ERR_NAME_NOT_RESOLVED @ https://claude.ai/v1/environment_providers/private/organizations/4ab98f76-5d66-4474-b802-efde0360472b/environments:0
+[50457662ms] [ERROR] [REACT_QUERY_CLIENT] QueryClient error: TypeError: Failed to fetch
+    at a (https://assets-proxy.anthropic.com/claude-ai/v2/assets/v1/c34d1f91f-C2WM6H-4.js:1:24087)
+    at https://assets-proxy.anthropic.com/claude-ai/v2/assets/v1/c34d1f91f-C2WM6H-4.js:2:70031
+    at https://assets-proxy.anthropic.com/claude-ai/v2/assets/v1/c34d1f91f-C2WM6H-4.js:2:70174
+    at https://assets-proxy.anthropic.com/claude-ai/v2/assets/v1/c34d1f91f-C2WM6H-4.js:2:72210
+    at Object.fetchFn [as fn] (https://assets-proxy.anthropic.com/claude-ai/v2/assets/v1/vendor-query-CSyAqYtT.js:1:9554)
+    at d (https://assets-proxy.anthropic.com/claude-ai/v2/assets/v1/vendor-query-CSyAqYtT.js:1:5061)
+    at Object.start (https://assets-proxy.anthropic.com/claude-ai/v2/assets/v1/vendor-query-CSyAqYtT.js:1:5568)
+    at A.fetch (https://assets-proxy.anthropic.com/claude-ai/v2/assets/v1/vendor-query-CSyAqYtT.js:1:10515)
+    at #K (https://assets-proxy.anthropic.com/claude-ai/v2/assets/v1/vendor-query-CSyAqYtT.js:1:25033)
+    at https://assets-proxy.anthropic.com/claude-ai/v2/assets/v1/vendor-query-CSyAqYtT.js:1:25608 @ https://assets-proxy.anthropic.com/claude-ai/v2/assets/v1/c34d1f91f-C2WM6H-4.js:0
+[50470028ms] [ERROR] Failed to load resource: net::ERR_NAME_NOT_RESOLVED @ https://claude.ai/v1/code/github/batch-branch-status?caller=epitaxy-repopr:0
+[50470029ms] [ERROR] Failed to load resource: net::ERR_NAME_NOT_RESOLVED @ https://claude.ai/v1/code/github/batch-branch-status:0
+[50471034ms] [ERROR] Failed to load resource: net::ERR_NAME_NOT_RESOLVED @ https://claude.ai/v1/code/github/batch-branch-status?caller=epitaxy-repopr:0
+[50471035ms] [ERROR] Failed to load resource: net::ERR_NAME_NOT_RESOLVED @ https://claude.ai/v1/code/github/batch-branch-status:0
+[50473040ms] [ERROR] Failed to load resource: net::ERR_NAME_NOT_RESOLVED @ https://claude.ai/v1/code/github/batch-branch-status?caller=epitaxy-repopr:0
+[50473041ms] [ERROR] [REACT_QUERY_CLIENT] QueryClient error: TypeError: Failed to fetch
+    at a (https://assets-proxy.anthropic.com/claude-ai/v2/assets/v1/c34d1f91f-C2WM6H-4.js:1:24087)
+    at https://assets-proxy.anthropic.com/claude-ai/v2/assets/v1/c34d1f91f-C2WM6H-4.js:2:70031
+    at xa (https://assets-proxy.anthropic.com/claude-ai/v2/assets/v1/cc3d7c553-pI1IkM1J.js:2:54150)
+    at https://assets-proxy.anthropic.com/claude-ai/v2/assets/v1/cc3d7c553-pI1IkM1J.js:2:51791
+    at Object.discoverPr (https://assets-proxy.anthropic.com/claude-ai/v2/assets/v1/cc3d7c553-pI1IkM1J.js:2:51999)
+    at queryFn (https://assets-proxy.anthropic.com/claude-ai/v2/assets/v1/cc3d7c553-pI1IkM1J.js:2:56515)
+    at Object.fetchFn [as fn] (https://assets-proxy.anthropic.com/claude-ai/v2/assets/v1/vendor-query-CSyAqYtT.js:1:9554)
+    at d (https://assets-proxy.anthropic.com/claude-ai/v2/assets/v1/vendor-query-CSyAqYtT.js:1:5061)
+    at https://assets-proxy.anthropic.com/claude-ai/v2/assets/v1/vendor-query-CSyAqYtT.js:1:5398 @ https://assets-proxy.anthropic.com/claude-ai/v2/assets/v1/c34d1f91f-C2WM6H-4.js:0
+[50473043ms] [ERROR] Failed to load resource: net::ERR_NAME_NOT_RESOLVED @ https://claude.ai/v1/code/github/batch-branch-status:0
+[50473044ms] [ERROR] [REACT_QUERY_CLIENT] QueryClient error: TypeError: Failed to fetch
+    at a (https://assets-proxy.anthropic.com/claude-ai/v2/assets/v1/c34d1f91f-C2WM6H-4.js:1:24087)
+    at https://assets-proxy.anthropic.com/claude-ai/v2/assets/v1/c34d1f91f-C2WM6H-4.js:2:70031
+    at queryFn (https://assets-proxy.anthropic.com/claude-ai/v2/assets/v1/index-d5B3q2CO.js:16:155101)
+    at Object.fetchFn [as fn] (https://assets-proxy.anthropic.com/claude-ai/v2/assets/v1/vendor-query-CSyAqYtT.js:1:9554)
+    at d (https://assets-proxy.anthropic.com/claude-ai/v2/assets/v1/vendor-query-CSyAqYtT.js:1:5061)
+    at https://assets-proxy.anthropic.com/claude-ai/v2/assets/v1/vendor-query-CSyAqYtT.js:1:5398 @ https://assets-proxy.anthropic.com/claude-ai/v2/assets/v1/c34d1f91f-C2WM6H-4.js:0
+[50473045ms] [ERROR] Failed to load resource: net::ERR_NAME_NOT_RESOLVED @ https://browser-intake-us5-datadoghq.com/api/v2/rum?ddsource=browser&dd-api-key=pub71869dceb5b70dba6123af9ca357d1f9&dd-evp-origin-version=6.31.0&dd-evp-origin=browser&dd-request-id=191bcce7-e6c4-42fe-901c-0ca2ebceffb4&batch_time=1780497656286&_dd.api=fetch:0
+[50503049ms] [ERROR] Failed to load resource: net::ERR_NAME_NOT_RESOLVED @ https://browser-intake-us5-datadoghq.com/api/v2/rum?ddsource=browser&dd-api-key=pub71869dceb5b70dba6123af9ca357d1f9&dd-evp-origin-version=6.31.0&dd-evp-origin=browser&dd-request-id=9c167f2e-7964-4ff0-acb0-e1d86f1722af&batch_time=1780497686290&_dd.api=fetch:0
+[50509551ms] [ERROR] Failed to load resource: net::ERR_NAME_NOT_RESOLVED @ https://claude.ai/v1/sessions/watch:0
+[50509706ms] [ERROR] Failed to load resource: net::ERR_NAME_NOT_RESOLVED @ https://claude.ai/v1/sessions/watch:0
+[50517686ms] [ERROR] Failed to load resource: net::ERR_NAME_NOT_RESOLVED @ https://claude.ai/v1/environment_providers/private/organizations/4ab98f76-5d66-4474-b802-efde0360472b/environments:0
+[50517686ms] [ERROR] [REACT_QUERY_CLIENT] QueryClient error: TypeError: Failed to fetch
+    at a (https://assets-proxy.anthropic.com/claude-ai/v2/assets/v1/c34d1f91f-C2WM6H-4.js:1:24087)
+    at https://assets-proxy.anthropic.com/claude-ai/v2/assets/v1/c34d1f91f-C2WM6H-4.js:2:70031
+    at https://assets-proxy.anthropic.com/claude-ai/v2/assets/v1/c34d1f91f-C2WM6H-4.js:2:70174
+    at https://assets-proxy.anthropic.com/claude-ai/v2/assets/v1/c34d1f91f-C2WM6H-4.js:2:72210
+    at Object.fetchFn [as fn] (https://assets-proxy.anthropic.com/claude-ai/v2/assets/v1/vendor-query-CSyAqYtT.js:1:9554)
+    at d (https://assets-proxy.anthropic.com/claude-ai/v2/assets/v1/vendor-query-CSyAqYtT.js:1:5061)
+    at Object.start (https://assets-proxy.anthropic.com/claude-ai/v2/assets/v1/vendor-query-CSyAqYtT.js:1:5568)
+    at A.fetch (https://assets-proxy.anthropic.com/claude-ai/v2/assets/v1/vendor-query-CSyAqYtT.js:1:10515)
+    at #K (https://assets-proxy.anthropic.com/claude-ai/v2/assets/v1/vendor-query-CSyAqYtT.js:1:25033)
+    at https://assets-proxy.anthropic.com/claude-ai/v2/assets/v1/vendor-query-CSyAqYtT.js:1:25608 @ https://assets-proxy.anthropic.com/claude-ai/v2/assets/v1/c34d1f91f-C2WM6H-4.js:0
+[50539571ms] [ERROR] Failed to load resource: net::ERR_NAME_NOT_RESOLVED @ https://browser-intake-us5-datadoghq.com/api/v2/rum?ddsource=browser&dd-api-key=pub71869dceb5b70dba6123af9ca357d1f9&dd-evp-origin-version=6.31.0&dd-evp-origin=browser&dd-request-id=54dfdcd1-c268-47ad-a36f-aeee2e538852&batch_time=1780497722812&_dd.api=fetch:0
+[50570397ms] [ERROR] Failed to load resource: net::ERR_NAME_NOT_RESOLVED @ https://claude.ai/v1/sessions/watch:0
+[50570708ms] [ERROR] Failed to load resource: net::ERR_NAME_NOT_RESOLVED @ https://claude.ai/v1/sessions/watch:0
+[50577715ms] [ERROR] Failed to load resource: net::ERR_NAME_NOT_RESOLVED @ https://claude.ai/v1/environment_providers/private/organizations/4ab98f76-5d66-4474-b802-efde0360472b/environments:0
+[50577715ms] [ERROR] [REACT_QUERY_CLIENT] QueryClient error: TypeError: Failed to fetch
+    at a (https://assets-proxy.anthropic.com/claude-ai/v2/assets/v1/c34d1f91f-C2WM6H-4.js:1:24087)
+    at https://assets-proxy.anthropic.com/claude-ai/v2/assets/v1/c34d1f91f-C2WM6H-4.js:2:70031
+    at https://assets-proxy.anthropic.com/claude-ai/v2/assets/v1/c34d1f91f-C2WM6H-4.js:2:70174
+    at https://assets-proxy.anthropic.com/claude-ai/v2/assets/v1/c34d1f91f-C2WM6H-4.js:2:72210
+    at Object.fetchFn [as fn] (https://assets-proxy.anthropic.com/claude-ai/v2/assets/v1/vendor-query-CSyAqYtT.js:1:9554)
+    at d (https://assets-proxy.anthropic.com/claude-ai/v2/assets/v1/vendor-query-CSyAqYtT.js:1:5061)
+    at Object.start (https://assets-proxy.anthropic.com/claude-ai/v2/assets/v1/vendor-query-CSyAqYtT.js:1:5568)
+    at A.fetch (https://assets-proxy.anthropic.com/claude-ai/v2/assets/v1/vendor-query-CSyAqYtT.js:1:10515)
+    at #K (https://assets-proxy.anthropic.com/claude-ai/v2/assets/v1/vendor-query-CSyAqYtT.js:1:25033)
+    at https://assets-proxy.anthropic.com/claude-ai/v2/assets/v1/vendor-query-CSyAqYtT.js:1:25608 @ https://assets-proxy.anthropic.com/claude-ai/v2/assets/v1/c34d1f91f-C2WM6H-4.js:0
+[50593064ms] [ERROR] Failed to load resource: net::ERR_NAME_NOT_RESOLVED @ https://claude.ai/v1/code/github/batch-branch-status?caller=epitaxy-repopr:0
+[50593065ms] [ERROR] Failed to load resource: net::ERR_NAME_NOT_RESOLVED @ https://claude.ai/v1/code/github/batch-branch-status:0
+[50594078ms] [ERROR] Failed to load resource: net::ERR_NAME_NOT_RESOLVED @ https://claude.ai/v1/code/github/batch-branch-status?caller=epitaxy-repopr:0
+[50594078ms] [ERROR] Failed to load resource: net::ERR_NAME_NOT_RESOLVED @ https://claude.ai/v1/code/github/batch-branch-status:0
+[50596089ms] [ERROR] Failed to load resource: net::ERR_NAME_NOT_RESOLVED @ https://claude.ai/v1/code/github/batch-branch-status?caller=epitaxy-repopr:0
+[50596090ms] [ERROR] [REACT_QUERY_CLIENT] QueryClient error: TypeError: Failed to fetch
+    at a (https://assets-proxy.anthropic.com/claude-ai/v2/assets/v1/c34d1f91f-C2WM6H-4.js:1:24087)
+    at https://assets-proxy.anthropic.com/claude-ai/v2/assets/v1/c34d1f91f-C2WM6H-4.js:2:70031
+    at xa (https://assets-proxy.anthropic.com/claude-ai/v2/assets/v1/cc3d7c553-pI1IkM1J.js:2:54150)
+    at https://assets-proxy.anthropic.com/claude-ai/v2/assets/v1/cc3d7c553-pI1IkM1J.js:2:51791
+    at Object.discoverPr (https://assets-proxy.anthropic.com/claude-ai/v2/assets/v1/cc3d7c553-pI1IkM1J.js:2:51999)
+    at queryFn (https://assets-proxy.anthropic.com/claude-ai/v2/assets/v1/cc3d7c553-pI1IkM1J.js:2:56515)
+    at Object.fetchFn [as fn] (https://assets-proxy.anthropic.com/claude-ai/v2/assets/v1/vendor-query-CSyAqYtT.js:1:9554)
+    at d (https://assets-proxy.anthropic.com/claude-ai/v2/assets/v1/vendor-query-CSyAqYtT.js:1:5061)
+    at https://assets-proxy.anthropic.com/claude-ai/v2/assets/v1/vendor-query-CSyAqYtT.js:1:5398 @ https://assets-proxy.anthropic.com/claude-ai/v2/assets/v1/c34d1f91f-C2WM6H-4.js:0
+[50596092ms] [ERROR] Failed to load resource: net::ERR_NAME_NOT_RESOLVED @ https://claude.ai/v1/code/github/batch-branch-status:0
+[50596093ms] [ERROR] [REACT_QUERY_CLIENT] QueryClient error: TypeError: Failed to fetch
+    at a (https://assets-proxy.anthropic.com/claude-ai/v2/assets/v1/c34d1f91f-C2WM6H-4.js:1:24087)
+    at https://assets-proxy.anthropic.com/claude-ai/v2/assets/v1/c34d1f91f-C2WM6H-4.js:2:70031
+    at queryFn (https://assets-proxy.anthropic.com/claude-ai/v2/assets/v1/index-d5B3q2CO.js:16:155101)
+    at Object.fetchFn [as fn] (https://assets-proxy.anthropic.com/claude-ai/v2/assets/v1/vendor-query-CSyAqYtT.js:1:9554)
+    at d (https://assets-proxy.anthropic.com/claude-ai/v2/assets/v1/vendor-query-CSyAqYtT.js:1:5061)
+    at https://assets-proxy.anthropic.com/claude-ai/v2/assets/v1/vendor-query-CSyAqYtT.js:1:5398 @ https://assets-proxy.anthropic.com/claude-ai/v2/assets/v1/c34d1f91f-C2WM6H-4.js:0
+[50596093ms] [ERROR] Failed to load resource: net::ERR_NAME_NOT_RESOLVED @ https://browser-intake-us5-datadoghq.com/api/v2/rum?ddsource=browser&dd-api-key=pub71869dceb5b70dba6123af9ca357d1f9&dd-evp-origin-version=6.31.0&dd-evp-origin=browser&dd-request-id=b5bad76e-2319-431c-b464-476f8a631ae9&batch_time=1780497779335&_dd.api=fetch:0
+[50626105ms] [ERROR] Failed to load resource: net::ERR_NAME_NOT_RESOLVED @ https://browser-intake-us5-datadoghq.com/api/v2/rum?ddsource=browser&dd-api-key=pub71869dceb5b70dba6123af9ca357d1f9&dd-evp-origin-version=6.31.0&dd-evp-origin=browser&dd-request-id=fa32018a-abd2-45fb-bccd-4a36e0f419ca&batch_time=1780497809346&_dd.api=fetch:0
+[50630901ms] [ERROR] Failed to load resource: net::ERR_NAME_NOT_RESOLVED @ https://claude.ai/v1/sessions/watch:0
+[50630995ms] [ERROR] Failed to load resource: net::ERR_NAME_NOT_RESOLVED @ https://claude.ai/v1/sessions/watch:0
+[50637745ms] [ERROR] Failed to load resource: net::ERR_NAME_NOT_RESOLVED @ https://claude.ai/v1/environment_providers/private/organizations/4ab98f76-5d66-4474-b802-efde0360472b/environments:0
+[50637745ms] [ERROR] [REACT_QUERY_CLIENT] QueryClient error: TypeError: Failed to fetch
+    at a (https://assets-proxy.anthropic.com/claude-ai/v2/assets/v1/c34d1f91f-C2WM6H-4.js:1:24087)
+    at https://assets-proxy.anthropic.com/claude-ai/v2/assets/v1/c34d1f91f-C2WM6H-4.js:2:70031
+    at https://assets-proxy.anthropic.com/claude-ai/v2/assets/v1/c34d1f91f-C2WM6H-4.js:2:70174
+    at https://assets-proxy.anthropic.com/claude-ai/v2/assets/v1/c34d1f91f-C2WM6H-4.js:2:72210
+    at Object.fetchFn [as fn] (https://assets-proxy.anthropic.com/claude-ai/v2/assets/v1/vendor-query-CSyAqYtT.js:1:9554)
+    at d (https://assets-proxy.anthropic.com/claude-ai/v2/assets/v1/vendor-query-CSyAqYtT.js:1:5061)
+    at Object.start (https://assets-proxy.anthropic.com/claude-ai/v2/assets/v1/vendor-query-CSyAqYtT.js:1:5568)
+    at A.fetch (https://assets-proxy.anthropic.com/claude-ai/v2/assets/v1/vendor-query-CSyAqYtT.js:1:10515)
+    at #K (https://assets-proxy.anthropic.com/claude-ai/v2/assets/v1/vendor-query-CSyAqYtT.js:1:25033)
+    at https://assets-proxy.anthropic.com/claude-ai/v2/assets/v1/vendor-query-CSyAqYtT.js:1:25608 @ https://assets-proxy.anthropic.com/claude-ai/v2/assets/v1/c34d1f91f-C2WM6H-4.js:0
+[50660911ms] [ERROR] Failed to load resource: net::ERR_NAME_NOT_RESOLVED @ https://browser-intake-us5-datadoghq.com/api/v2/rum?ddsource=browser&dd-api-key=pub71869dceb5b70dba6123af9ca357d1f9&dd-evp-origin-version=6.31.0&dd-evp-origin=browser&dd-request-id=155fbaed-b384-4f30-9b11-0ae52e6bbe0b&batch_time=1780497844153&_dd.api=fetch:0
+[50691723ms] [ERROR] Failed to load resource: net::ERR_NAME_NOT_RESOLVED @ https://claude.ai/v1/sessions/watch:0
+[50691727ms] [ERROR] Failed to load resource: net::ERR_NAME_NOT_RESOLVED @ https://claude.ai/v1/sessions/watch:0
+[50697556ms] [ERROR] Failed to load resource: net::ERR_NAME_NOT_RESOLVED @ https://claude.ai/api/organizations/4ab98f76-5d66-4474-b802-efde0360472b/usage:0
+[50697557ms] [ERROR] [REACT_QUERY_CLIENT] QueryClient error: TypeError: Failed to fetch
+    at a (https://assets-proxy.anthropic.com/claude-ai/v2/assets/v1/c34d1f91f-C2WM6H-4.js:1:24087)
+    at https://assets-proxy.anthropic.com/claude-ai/v2/assets/v1/c34d1f91f-C2WM6H-4.js:2:70031
+    at https://assets-proxy.anthropic.com/claude-ai/v2/assets/v1/c34d1f91f-C2WM6H-4.js:2:70174
+    at https://assets-proxy.anthropic.com/claude-ai/v2/assets/v1/c34d1f91f-C2WM6H-4.js:2:72210
+    at Object.fetchFn [as fn] (https://assets-proxy.anthropic.com/claude-ai/v2/assets/v1/vendor-query-CSyAqYtT.js:1:9554)
+    at d (https://assets-proxy.anthropic.com/claude-ai/v2/assets/v1/vendor-query-CSyAqYtT.js:1:5061)
+    at Object.start (https://assets-proxy.anthropic.com/claude-ai/v2/assets/v1/vendor-query-CSyAqYtT.js:1:5568)
+    at A.fetch (https://assets-proxy.anthropic.com/claude-ai/v2/assets/v1/vendor-query-CSyAqYtT.js:1:10515)
+    at #K (https://assets-proxy.anthropic.com/claude-ai/v2/assets/v1/vendor-query-CSyAqYtT.js:1:25033)
+    at https://assets-proxy.anthropic.com/claude-ai/v2/assets/v1/vendor-query-CSyAqYtT.js:1:25608 @ https://assets-proxy.anthropic.com/claude-ai/v2/assets/v1/c34d1f91f-C2WM6H-4.js:0
+[50697762ms] [ERROR] Failed to load resource: net::ERR_NAME_NOT_RESOLVED @ https://claude.ai/v1/environment_providers/private/organizations/4ab98f76-5d66-4474-b802-efde0360472b/environments:0
+[50697762ms] [ERROR] [REACT_QUERY_CLIENT] QueryClient error: TypeError: Failed to fetch
+    at a (https://assets-proxy.anthropic.com/claude-ai/v2/assets/v1/c34d1f91f-C2WM6H-4.js:1:24087)
+    at https://assets-proxy.anthropic.com/claude-ai/v2/assets/v1/c34d1f91f-C2WM6H-4.js:2:70031
+    at https://assets-proxy.anthropic.com/claude-ai/v2/assets/v1/c34d1f91f-C2WM6H-4.js:2:70174
+    at https://assets-proxy.anthropic.com/claude-ai/v2/assets/v1/c34d1f91f-C2WM6H-4.js:2:72210
+    at Object.fetchFn [as fn] (https://assets-proxy.anthropic.com/claude-ai/v2/assets/v1/vendor-query-CSyAqYtT.js:1:9554)
+    at d (https://assets-proxy.anthropic.com/claude-ai/v2/assets/v1/vendor-query-CSyAqYtT.js:1:5061)
+    at Object.start (https://assets-proxy.anthropic.com/claude-ai/v2/assets/v1/vendor-query-CSyAqYtT.js:1:5568)
+    at A.fetch (https://assets-proxy.anthropic.com/claude-ai/v2/assets/v1/vendor-query-CSyAqYtT.js:1:10515)
+    at #K (https://assets-proxy.anthropic.com/claude-ai/v2/assets/v1/vendor-query-CSyAqYtT.js:1:25033)
+    at https://assets-proxy.anthropic.com/claude-ai/v2/assets/v1/vendor-query-CSyAqYtT.js:1:25608 @ https://assets-proxy.anthropic.com/claude-ai/v2/assets/v1/c34d1f91f-C2WM6H-4.js:0
+[50716110ms] [ERROR] Failed to load resource: net::ERR_NAME_NOT_RESOLVED @ https://claude.ai/v1/code/github/batch-branch-status?caller=epitaxy-repopr:0
+[50716111ms] [ERROR] Failed to load resource: net::ERR_NAME_NOT_RESOLVED @ https://claude.ai/v1/code/github/batch-branch-status:0
+[50717116ms] [ERROR] Failed to load resource: net::ERR_NAME_NOT_RESOLVED @ https://claude.ai/v1/code/github/batch-branch-status?caller=epitaxy-repopr:0
+[50717116ms] [ERROR] Failed to load resource: net::ERR_NAME_NOT_RESOLVED @ https://claude.ai/v1/code/github/batch-branch-status:0
+[50717120ms] [ERROR] Failed to load resource: net::ERR_NAME_NOT_RESOLVED @ https://browser-intake-us5-datadoghq.com/api/v2/rum?ddsource=browser&dd-api-key=pub71869dceb5b70dba6123af9ca357d1f9&dd-evp-origin-version=6.31.0&dd-evp-origin=browser&dd-request-id=e607bb5a-97e7-4373-bfe6-c25359b0a841&batch_time=1780497900361&_dd.api=fetch:0
+[50719121ms] [ERROR] Failed to load resource: net::ERR_NAME_NOT_RESOLVED @ https://claude.ai/v1/code/github/batch-branch-status:0
+[50719121ms] [ERROR] [REACT_QUERY_CLIENT] QueryClient error: TypeError: Failed to fetch
+    at a (https://assets-proxy.anthropic.com/claude-ai/v2/assets/v1/c34d1f91f-C2WM6H-4.js:1:24087)
+    at https://assets-proxy.anthropic.com/claude-ai/v2/assets/v1/c34d1f91f-C2WM6H-4.js:2:70031
+    at queryFn (https://assets-proxy.anthropic.com/claude-ai/v2/assets/v1/index-d5B3q2CO.js:16:155101)
+    at Object.fetchFn [as fn] (https://assets-proxy.anthropic.com/claude-ai/v2/assets/v1/vendor-query-CSyAqYtT.js:1:9554)
+    at d (https://assets-proxy.anthropic.com/claude-ai/v2/assets/v1/vendor-query-CSyAqYtT.js:1:5061)
+    at https://assets-proxy.anthropic.com/claude-ai/v2/assets/v1/vendor-query-CSyAqYtT.js:1:5398 @ https://assets-proxy.anthropic.com/claude-ai/v2/assets/v1/c34d1f91f-C2WM6H-4.js:0
+[50719123ms] [ERROR] Failed to load resource: net::ERR_NAME_NOT_RESOLVED @ https://claude.ai/v1/code/github/batch-branch-status?caller=epitaxy-repopr:0
+[50719123ms] [ERROR] [REACT_QUERY_CLIENT] QueryClient error: TypeError: Failed to fetch
+    at a (https://assets-proxy.anthropic.com/claude-ai/v2/assets/v1/c34d1f91f-C2WM6H-4.js:1:24087)
+    at https://assets-proxy.anthropic.com/claude-ai/v2/assets/v1/c34d1f91f-C2WM6H-4.js:2:70031
+    at xa (https://assets-proxy.anthropic.com/claude-ai/v2/assets/v1/cc3d7c553-pI1IkM1J.js:2:54150)
+    at https://assets-proxy.anthropic.com/claude-ai/v2/assets/v1/cc3d7c553-pI1IkM1J.js:2:51791
+    at Object.discoverPr (https://assets-proxy.anthropic.com/claude-ai/v2/assets/v1/cc3d7c553-pI1IkM1J.js:2:51999)
+    at queryFn (https://assets-proxy.anthropic.com/claude-ai/v2/assets/v1/cc3d7c553-pI1IkM1J.js:2:56515)
+    at Object.fetchFn [as fn] (https://assets-proxy.anthropic.com/claude-ai/v2/assets/v1/vendor-query-CSyAqYtT.js:1:9554)
+    at d (https://assets-proxy.anthropic.com/claude-ai/v2/assets/v1/vendor-query-CSyAqYtT.js:1:5061)
+    at https://assets-proxy.anthropic.com/claude-ai/v2/assets/v1/vendor-query-CSyAqYtT.js:1:5398 @ https://assets-proxy.anthropic.com/claude-ai/v2/assets/v1/c34d1f91f-C2WM6H-4.js:0
+[50747134ms] [ERROR] Failed to load resource: net::ERR_NAME_NOT_RESOLVED @ https://browser-intake-us5-datadoghq.com/api/v2/rum?ddsource=browser&dd-api-key=pub71869dceb5b70dba6123af9ca357d1f9&dd-evp-origin-version=6.31.0&dd-evp-origin=browser&dd-request-id=ffc74a3d-46c2-4388-8c6f-2853670f18da&batch_time=1780497930376&_dd.api=fetch:0
+[50752274ms] [ERROR] Failed to load resource: net::ERR_NAME_NOT_RESOLVED @ https://claude.ai/v1/sessions/watch:0
+[50752664ms] [ERROR] Failed to load resource: net::ERR_NAME_NOT_RESOLVED @ https://claude.ai/v1/sessions/watch:0
+[50757788ms] [ERROR] Failed to load resource: net::ERR_NAME_NOT_RESOLVED @ https://claude.ai/v1/environment_providers/private/organizations/4ab98f76-5d66-4474-b802-efde0360472b/environments:0
+[50757789ms] [ERROR] [REACT_QUERY_CLIENT] QueryClient error: TypeError: Failed to fetch
+    at a (https://assets-proxy.anthropic.com/claude-ai/v2/assets/v1/c34d1f91f-C2WM6H-4.js:1:24087)
+    at https://assets-proxy.anthropic.com/claude-ai/v2/assets/v1/c34d1f91f-C2WM6H-4.js:2:70031
+    at https://assets-proxy.anthropic.com/claude-ai/v2/assets/v1/c34d1f91f-C2WM6H-4.js:2:70174
+    at https://assets-proxy.anthropic.com/claude-ai/v2/assets/v1/c34d1f91f-C2WM6H-4.js:2:72210
+    at Object.fetchFn [as fn] (https://assets-proxy.anthropic.com/claude-ai/v2/assets/v1/vendor-query-CSyAqYtT.js:1:9554)
+    at d (https://assets-proxy.anthropic.com/claude-ai/v2/assets/v1/vendor-query-CSyAqYtT.js:1:5061)
+    at Object.start (https://assets-proxy.anthropic.com/claude-ai/v2/assets/v1/vendor-query-CSyAqYtT.js:1:5568)
+    at A.fetch (https://assets-proxy.anthropic.com/claude-ai/v2/assets/v1/vendor-query-CSyAqYtT.js:1:10515)
+    at #K (https://assets-proxy.anthropic.com/claude-ai/v2/assets/v1/vendor-query-CSyAqYtT.js:1:25033)
+    at https://assets-proxy.anthropic.com/claude-ai/v2/assets/v1/vendor-query-CSyAqYtT.js:1:25608 @ https://assets-proxy.anthropic.com/claude-ai/v2/assets/v1/c34d1f91f-C2WM6H-4.js:0
+[50782280ms] [ERROR] Failed to load resource: net::ERR_NAME_NOT_RESOLVED @ https://browser-intake-us5-datadoghq.com/api/v2/rum?ddsource=browser&dd-api-key=pub71869dceb5b70dba6123af9ca357d1f9&dd-evp-origin-version=6.31.0&dd-evp-origin=browser&dd-request-id=86cae80b-9585-4d13-a21d-a3655d783a4a&batch_time=1780497965521&_dd.api=fetch:0
+[50812492ms] [ERROR] Failed to load resource: net::ERR_NAME_NOT_RESOLVED @ https://claude.ai/v1/sessions/watch:0
+[50812723ms] [ERROR] Failed to load resource: net::ERR_NAME_NOT_RESOLVED @ https://claude.ai/v1/sessions/watch:0
+[50817814ms] [ERROR] Failed to load resource: net::ERR_NAME_NOT_RESOLVED @ https://claude.ai/v1/environment_providers/private/organizations/4ab98f76-5d66-4474-b802-efde0360472b/environments:0
+[50817815ms] [ERROR] [REACT_QUERY_CLIENT] QueryClient error: TypeError: Failed to fetch
+    at a (https://assets-proxy.anthropic.com/claude-ai/v2/assets/v1/c34d1f91f-C2WM6H-4.js:1:24087)
+    at https://assets-proxy.anthropic.com/claude-ai/v2/assets/v1/c34d1f91f-C2WM6H-4.js:2:70031
+    at https://assets-proxy.anthropic.com/claude-ai/v2/assets/v1/c34d1f91f-C2WM6H-4.js:2:70174
+    at https://assets-proxy.anthropic.com/claude-ai/v2/assets/v1/c34d1f91f-C2WM6H-4.js:2:72210
+    at Object.fetchFn [as fn] (https://assets-proxy.anthropic.com/claude-ai/v2/assets/v1/vendor-query-CSyAqYtT.js:1:9554)
+    at d (https://assets-proxy.anthropic.com/claude-ai/v2/assets/v1/vendor-query-CSyAqYtT.js:1:5061)
+    at Object.start (https://assets-proxy.anthropic.com/claude-ai/v2/assets/v1/vendor-query-CSyAqYtT.js:1:5568)
+    at A.fetch (https://assets-proxy.anthropic.com/claude-ai/v2/assets/v1/vendor-query-CSyAqYtT.js:1:10515)
+    at #K (https://assets-proxy.anthropic.com/claude-ai/v2/assets/v1/vendor-query-CSyAqYtT.js:1:25033)
+    at https://assets-proxy.anthropic.com/claude-ai/v2/assets/v1/vendor-query-CSyAqYtT.js:1:25608 @ https://assets-proxy.anthropic.com/claude-ai/v2/assets/v1/c34d1f91f-C2WM6H-4.js:0
+[50839138ms] [ERROR] Failed to load resource: net::ERR_NAME_NOT_RESOLVED @ https://claude.ai/v1/code/github/batch-branch-status:0
+[50839139ms] [ERROR] Failed to load resource: net::ERR_NAME_NOT_RESOLVED @ https://claude.ai/v1/code/github/batch-branch-status?caller=epitaxy-repopr:0
+[50840146ms] [ERROR] Failed to load resource: net::ERR_NAME_NOT_RESOLVED @ https://claude.ai/v1/code/github/batch-branch-status:0
+[50840147ms] [ERROR] Failed to load resource: net::ERR_NAME_NOT_RESOLVED @ https://claude.ai/v1/code/github/batch-branch-status?caller=epitaxy-repopr:0
+[50842162ms] [ERROR] Failed to load resource: net::ERR_NAME_NOT_RESOLVED @ https://claude.ai/v1/code/github/batch-branch-status:0
+[50842162ms] [ERROR] [REACT_QUERY_CLIENT] QueryClient error: TypeError: Failed to fetch
+    at a (https://assets-proxy.anthropic.com/claude-ai/v2/assets/v1/c34d1f91f-C2WM6H-4.js:1:24087)
+    at https://assets-proxy.anthropic.com/claude-ai/v2/assets/v1/c34d1f91f-C2WM6H-4.js:2:70031
+    at queryFn (https://assets-proxy.anthropic.com/claude-ai/v2/assets/v1/index-d5B3q2CO.js:16:155101)
+    at Object.fetchFn [as fn] (https://assets-proxy.anthropic.com/claude-ai/v2/assets/v1/vendor-query-CSyAqYtT.js:1:9554)
+    at d (https://assets-proxy.anthropic.com/claude-ai/v2/assets/v1/vendor-query-CSyAqYtT.js:1:5061)
+    at https://assets-proxy.anthropic.com/claude-ai/v2/assets/v1/vendor-query-CSyAqYtT.js:1:5398 @ https://assets-proxy.anthropic.com/claude-ai/v2/assets/v1/c34d1f91f-C2WM6H-4.js:0
+[50842163ms] [ERROR] Failed to load resource: net::ERR_NAME_NOT_RESOLVED @ https://claude.ai/v1/code/github/batch-branch-status?caller=epitaxy-repopr:0
+[50842163ms] [ERROR] [REACT_QUERY_CLIENT] QueryClient error: TypeError: Failed to fetch
+    at a (https://assets-proxy.anthropic.com/claude-ai/v2/assets/v1/c34d1f91f-C2WM6H-4.js:1:24087)
+    at https://assets-proxy.anthropic.com/claude-ai/v2/assets/v1/c34d1f91f-C2WM6H-4.js:2:70031
+    at xa (https://assets-proxy.anthropic.com/claude-ai/v2/assets/v1/cc3d7c553-pI1IkM1J.js:2:54150)
+    at https://assets-proxy.anthropic.com/claude-ai/v2/assets/v1/cc3d7c553-pI1IkM1J.js:2:51791
+    at Object.discoverPr (https://assets-proxy.anthropic.com/claude-ai/v2/assets/v1/cc3d7c553-pI1IkM1J.js:2:51999)
+    at queryFn (https://assets-proxy.anthropic.com/claude-ai/v2/assets/v1/cc3d7c553-pI1IkM1J.js:2:56515)
+    at Object.fetchFn [as fn] (https://assets-proxy.anthropic.com/claude-ai/v2/assets/v1/vendor-query-CSyAqYtT.js:1:9554)
+    at d (https://assets-proxy.anthropic.com/claude-ai/v2/assets/v1/vendor-query-CSyAqYtT.js:1:5061)
+    at https://assets-proxy.anthropic.com/claude-ai/v2/assets/v1/vendor-query-CSyAqYtT.js:1:5398 @ https://assets-proxy.anthropic.com/claude-ai/v2/assets/v1/c34d1f91f-C2WM6H-4.js:0
+[50842167ms] [ERROR] Failed to load resource: net::ERR_NAME_NOT_RESOLVED @ https://browser-intake-us5-datadoghq.com/api/v2/rum?ddsource=browser&dd-api-key=pub71869dceb5b70dba6123af9ca357d1f9&dd-evp-origin-version=6.31.0&dd-evp-origin=browser&dd-request-id=fafd9bb3-ffc1-47b0-b90a-d58b4c260fda&batch_time=1780498025409&_dd.api=fetch:0
+[50872172ms] [ERROR] Failed to load resource: net::ERR_NAME_NOT_RESOLVED @ https://browser-intake-us5-datadoghq.com/api/v2/rum?ddsource=browser&dd-api-key=pub71869dceb5b70dba6123af9ca357d1f9&dd-evp-origin-version=6.31.0&dd-evp-origin=browser&dd-request-id=91e59581-4aa6-4faf-b782-1becf6298914&batch_time=1780498055413&_dd.api=fetch:0
+[50873373ms] [ERROR] Failed to load resource: net::ERR_NAME_NOT_RESOLVED @ https://claude.ai/v1/sessions/watch:0
+[50873450ms] [ERROR] Failed to load resource: net::ERR_NAME_NOT_RESOLVED @ https://claude.ai/v1/sessions/watch:0
+[50877848ms] [ERROR] Failed to load resource: net::ERR_NAME_NOT_RESOLVED @ https://claude.ai/v1/environment_providers/private/organizations/4ab98f76-5d66-4474-b802-efde0360472b/environments:0
+[50877848ms] [ERROR] [REACT_QUERY_CLIENT] QueryClient error: TypeError: Failed to fetch
+    at a (https://assets-proxy.anthropic.com/claude-ai/v2/assets/v1/c34d1f91f-C2WM6H-4.js:1:24087)
+    at https://assets-proxy.anthropic.com/claude-ai/v2/assets/v1/c34d1f91f-C2WM6H-4.js:2:70031
+    at https://assets-proxy.anthropic.com/claude-ai/v2/assets/v1/c34d1f91f-C2WM6H-4.js:2:70174
+    at https://assets-proxy.anthropic.com/claude-ai/v2/assets/v1/c34d1f91f-C2WM6H-4.js:2:72210
+    at Object.fetchFn [as fn] (https://assets-proxy.anthropic.com/claude-ai/v2/assets/v1/vendor-query-CSyAqYtT.js:1:9554)
+    at d (https://assets-proxy.anthropic.com/claude-ai/v2/assets/v1/vendor-query-CSyAqYtT.js:1:5061)
+    at Object.start (https://assets-proxy.anthropic.com/claude-ai/v2/assets/v1/vendor-query-CSyAqYtT.js:1:5568)
+    at A.fetch (https://assets-proxy.anthropic.com/claude-ai/v2/assets/v1/vendor-query-CSyAqYtT.js:1:10515)
+    at #K (https://assets-proxy.anthropic.com/claude-ai/v2/assets/v1/vendor-query-CSyAqYtT.js:1:25033)
+    at https://assets-proxy.anthropic.com/claude-ai/v2/assets/v1/vendor-query-CSyAqYtT.js:1:25608 @ https://assets-proxy.anthropic.com/claude-ai/v2/assets/v1/c34d1f91f-C2WM6H-4.js:0
+[50903384ms] [ERROR] Failed to load resource: net::ERR_NAME_NOT_RESOLVED @ https://browser-intake-us5-datadoghq.com/api/v2/rum?ddsource=browser&dd-api-key=pub71869dceb5b70dba6123af9ca357d1f9&dd-evp-origin-version=6.31.0&dd-evp-origin=browser&dd-request-id=be8a31ea-feeb-4b65-aef7-5e15a65e21b1&batch_time=1780498086625&_dd.api=fetch:0
+[50934366ms] [ERROR] Failed to load resource: net::ERR_NAME_NOT_RESOLVED @ https://claude.ai/v1/sessions/watch:0
+[50934457ms] [ERROR] Failed to load resource: net::ERR_NAME_NOT_RESOLVED @ https://claude.ai/v1/sessions/watch:0
+[50937869ms] [ERROR] Failed to load resource: net::ERR_NAME_NOT_RESOLVED @ https://claude.ai/v1/environment_providers/private/organizations/4ab98f76-5d66-4474-b802-efde0360472b/environments:0
+[50937869ms] [ERROR] [REACT_QUERY_CLIENT] QueryClient error: TypeError: Failed to fetch
+    at a (https://assets-proxy.anthropic.com/claude-ai/v2/assets/v1/c34d1f91f-C2WM6H-4.js:1:24087)
+    at https://assets-proxy.anthropic.com/claude-ai/v2/assets/v1/c34d1f91f-C2WM6H-4.js:2:70031
+    at https://assets-proxy.anthropic.com/claude-ai/v2/assets/v1/c34d1f91f-C2WM6H-4.js:2:70174
+    at https://assets-proxy.anthropic.com/claude-ai/v2/assets/v1/c34d1f91f-C2WM6H-4.js:2:72210
+    at Object.fetchFn [as fn] (https://assets-proxy.anthropic.com/claude-ai/v2/assets/v1/vendor-query-CSyAqYtT.js:1:9554)
+    at d (https://assets-proxy.anthropic.com/claude-ai/v2/assets/v1/vendor-query-CSyAqYtT.js:1:5061)
+    at Object.start (https://assets-proxy.anthropic.com/claude-ai/v2/assets/v1/vendor-query-CSyAqYtT.js:1:5568)
+    at A.fetch (https://assets-proxy.anthropic.com/claude-ai/v2/assets/v1/vendor-query-CSyAqYtT.js:1:10515)
+    at #K (https://assets-proxy.anthropic.com/claude-ai/v2/assets/v1/vendor-query-CSyAqYtT.js:1:25033)
+    at https://assets-proxy.anthropic.com/claude-ai/v2/assets/v1/vendor-query-CSyAqYtT.js:1:25608 @ https://assets-proxy.anthropic.com/claude-ai/v2/assets/v1/c34d1f91f-C2WM6H-4.js:0
+[50962179ms] [ERROR] Failed to load resource: net::ERR_NAME_NOT_RESOLVED @ https://claude.ai/v1/code/github/batch-branch-status:0
+[50962182ms] [ERROR] Failed to load resource: net::ERR_NAME_NOT_RESOLVED @ https://claude.ai/v1/code/github/batch-branch-status?caller=epitaxy-repopr:0
+[50963194ms] [ERROR] Failed to load resource: net::ERR_NAME_NOT_RESOLVED @ https://claude.ai/v1/code/github/batch-branch-status:0
+[50963195ms] [ERROR] Failed to load resource: net::ERR_NAME_NOT_RESOLVED @ https://claude.ai/v1/code/github/batch-branch-status?caller=epitaxy-repopr:0
+[50964377ms] [ERROR] Failed to load resource: net::ERR_NAME_NOT_RESOLVED @ https://browser-intake-us5-datadoghq.com/api/v2/rum?ddsource=browser&dd-api-key=pub71869dceb5b70dba6123af9ca357d1f9&dd-evp-origin-version=6.31.0&dd-evp-origin=browser&dd-request-id=4979222f-1d13-4778-b7b0-58f91bed3ca1&batch_time=1780498147618&_dd.api=fetch:0
+[50965203ms] [ERROR] Failed to load resource: net::ERR_NAME_NOT_RESOLVED @ https://claude.ai/v1/code/github/batch-branch-status:0
+[50965203ms] [ERROR] [REACT_QUERY_CLIENT] QueryClient error: TypeError: Failed to fetch
+    at a (https://assets-proxy.anthropic.com/claude-ai/v2/assets/v1/c34d1f91f-C2WM6H-4.js:1:24087)
+    at https://assets-proxy.anthropic.com/claude-ai/v2/assets/v1/c34d1f91f-C2WM6H-4.js:2:70031
+    at queryFn (https://assets-proxy.anthropic.com/claude-ai/v2/assets/v1/index-d5B3q2CO.js:16:155101)
+    at Object.fetchFn [as fn] (https://assets-proxy.anthropic.com/claude-ai/v2/assets/v1/vendor-query-CSyAqYtT.js:1:9554)
+    at d (https://assets-proxy.anthropic.com/claude-ai/v2/assets/v1/vendor-query-CSyAqYtT.js:1:5061)
+    at https://assets-proxy.anthropic.com/claude-ai/v2/assets/v1/vendor-query-CSyAqYtT.js:1:5398 @ https://assets-proxy.anthropic.com/claude-ai/v2/assets/v1/c34d1f91f-C2WM6H-4.js:0
+[50965204ms] [ERROR] Failed to load resource: net::ERR_NAME_NOT_RESOLVED @ https://claude.ai/v1/code/github/batch-branch-status?caller=epitaxy-repopr:0
+[50965204ms] [ERROR] [REACT_QUERY_CLIENT] QueryClient error: TypeError: Failed to fetch
+    at a (https://assets-proxy.anthropic.com/claude-ai/v2/assets/v1/c34d1f91f-C2WM6H-4.js:1:24087)
+    at https://assets-proxy.anthropic.com/claude-ai/v2/assets/v1/c34d1f91f-C2WM6H-4.js:2:70031
+    at xa (https://assets-proxy.anthropic.com/claude-ai/v2/assets/v1/cc3d7c553-pI1IkM1J.js:2:54150)
+    at https://assets-proxy.anthropic.com/claude-ai/v2/assets/v1/cc3d7c553-pI1IkM1J.js:2:51791
+    at Object.discoverPr (https://assets-proxy.anthropic.com/claude-ai/v2/assets/v1/cc3d7c553-pI1IkM1J.js:2:51999)
+    at queryFn (https://assets-proxy.anthropic.com/claude-ai/v2/assets/v1/cc3d7c553-pI1IkM1J.js:2:56515)
+    at Object.fetchFn [as fn] (https://assets-proxy.anthropic.com/claude-ai/v2/assets/v1/vendor-query-CSyAqYtT.js:1:9554)
+    at d (https://assets-proxy.anthropic.com/claude-ai/v2/assets/v1/vendor-query-CSyAqYtT.js:1:5061)
+    at https://assets-proxy.anthropic.com/claude-ai/v2/assets/v1/vendor-query-CSyAqYtT.js:1:5398 @ https://assets-proxy.anthropic.com/claude-ai/v2/assets/v1/c34d1f91f-C2WM6H-4.js:0
+[50995053ms] [ERROR] Failed to load resource: net::ERR_NAME_NOT_RESOLVED @ https://claude.ai/v1/sessions/watch:0
+[50995191ms] [ERROR] Failed to load resource: net::ERR_NAME_NOT_RESOLVED @ https://browser-intake-us5-datadoghq.com/api/v2/rum?ddsource=browser&dd-api-key=pub71869dceb5b70dba6123af9ca357d1f9&dd-evp-origin-version=6.31.0&dd-evp-origin=browser&dd-request-id=49714304-94cf-4d4c-b3e0-98f3933935d1&batch_time=1780498178433&_dd.api=fetch:0
+[50995237ms] [ERROR] Failed to load resource: net::ERR_NAME_NOT_RESOLVED @ https://claude.ai/v1/sessions/watch:0
+[50997573ms] [ERROR] Failed to load resource: net::ERR_NAME_NOT_RESOLVED @ https://claude.ai/api/organizations/4ab98f76-5d66-4474-b802-efde0360472b/usage:0
+[50997574ms] [ERROR] [REACT_QUERY_CLIENT] QueryClient error: TypeError: Failed to fetch
+    at a (https://assets-proxy.anthropic.com/claude-ai/v2/assets/v1/c34d1f91f-C2WM6H-4.js:1:24087)
+    at https://assets-proxy.anthropic.com/claude-ai/v2/assets/v1/c34d1f91f-C2WM6H-4.js:2:70031
+    at https://assets-proxy.anthropic.com/claude-ai/v2/assets/v1/c34d1f91f-C2WM6H-4.js:2:70174
+    at https://assets-proxy.anthropic.com/claude-ai/v2/assets/v1/c34d1f91f-C2WM6H-4.js:2:72210
+    at Object.fetchFn [as fn] (https://assets-proxy.anthropic.com/claude-ai/v2/assets/v1/vendor-query-CSyAqYtT.js:1:9554)
+    at d (https://assets-proxy.anthropic.com/claude-ai/v2/assets/v1/vendor-query-CSyAqYtT.js:1:5061)
+    at Object.start (https://assets-proxy.anthropic.com/claude-ai/v2/assets/v1/vendor-query-CSyAqYtT.js:1:5568)
+    at A.fetch (https://assets-proxy.anthropic.com/claude-ai/v2/assets/v1/vendor-query-CSyAqYtT.js:1:10515)
+    at #K (https://assets-proxy.anthropic.com/claude-ai/v2/assets/v1/vendor-query-CSyAqYtT.js:1:25033)
+    at https://assets-proxy.anthropic.com/claude-ai/v2/assets/v1/vendor-query-CSyAqYtT.js:1:25608 @ https://assets-proxy.anthropic.com/claude-ai/v2/assets/v1/c34d1f91f-C2WM6H-4.js:0
+[50997895ms] [ERROR] Failed to load resource: net::ERR_NAME_NOT_RESOLVED @ https://claude.ai/v1/environment_providers/private/organizations/4ab98f76-5d66-4474-b802-efde0360472b/environments:0
+[50997896ms] [ERROR] [REACT_QUERY_CLIENT] QueryClient error: TypeError: Failed to fetch
+    at a (https://assets-proxy.anthropic.com/claude-ai/v2/assets/v1/c34d1f91f-C2WM6H-4.js:1:24087)
+    at https://assets-proxy.anthropic.com/claude-ai/v2/assets/v1/c34d1f91f-C2WM6H-4.js:2:70031
+    at https://assets-proxy.anthropic.com/claude-ai/v2/assets/v1/c34d1f91f-C2WM6H-4.js:2:70174
+    at https://assets-proxy.anthropic.com/claude-ai/v2/assets/v1/c34d1f91f-C2WM6H-4.js:2:72210
+    at Object.fetchFn [as fn] (https://assets-proxy.anthropic.com/claude-ai/v2/assets/v1/vendor-query-CSyAqYtT.js:1:9554)
+    at d (https://assets-proxy.anthropic.com/claude-ai/v2/assets/v1/vendor-query-CSyAqYtT.js:1:5061)
+    at Object.start (https://assets-proxy.anthropic.com/claude-ai/v2/assets/v1/vendor-query-CSyAqYtT.js:1:5568)
+    at A.fetch (https://assets-proxy.anthropic.com/claude-ai/v2/assets/v1/vendor-query-CSyAqYtT.js:1:10515)
+    at #K (https://assets-proxy.anthropic.com/claude-ai/v2/assets/v1/vendor-query-CSyAqYtT.js:1:25033)
+    at https://assets-proxy.anthropic.com/claude-ai/v2/assets/v1/vendor-query-CSyAqYtT.js:1:25608 @ https://assets-proxy.anthropic.com/claude-ai/v2/assets/v1/c34d1f91f-C2WM6H-4.js:0
+[51025253ms] [ERROR] Failed to load resource: net::ERR_NAME_NOT_RESOLVED @ https://browser-intake-us5-datadoghq.com/api/v2/rum?ddsource=browser&dd-api-key=pub71869dceb5b70dba6123af9ca357d1f9&dd-evp-origin-version=6.31.0&dd-evp-origin=browser&dd-request-id=3f514b34-ceb2-4de2-af4e-b1df4cb46b23&batch_time=1780498208494&_dd.api=fetch:0
+[51055480ms] [ERROR] Failed to load resource: net::ERR_NAME_NOT_RESOLVED @ https://claude.ai/v1/sessions/watch:0
+[51056121ms] [ERROR] Failed to load resource: net::ERR_NAME_NOT_RESOLVED @ https://claude.ai/v1/sessions/watch:0
+[51057919ms] [ERROR] Failed to load resource: net::ERR_NAME_NOT_RESOLVED @ https://claude.ai/v1/environment_providers/private/organizations/4ab98f76-5d66-4474-b802-efde0360472b/environments:0
+[51057920ms] [ERROR] [REACT_QUERY_CLIENT] QueryClient error: TypeError: Failed to fetch
+    at a (https://assets-proxy.anthropic.com/claude-ai/v2/assets/v1/c34d1f91f-C2WM6H-4.js:1:24087)
+    at https://assets-proxy.anthropic.com/claude-ai/v2/assets/v1/c34d1f91f-C2WM6H-4.js:2:70031
+    at https://assets-proxy.anthropic.com/claude-ai/v2/assets/v1/c34d1f91f-C2WM6H-4.js:2:70174
+    at https://assets-proxy.anthropic.com/claude-ai/v2/assets/v1/c34d1f91f-C2WM6H-4.js:2:72210
+    at Object.fetchFn [as fn] (https://assets-proxy.anthropic.com/claude-ai/v2/assets/v1/vendor-query-CSyAqYtT.js:1:9554)
+    at d (https://assets-proxy.anthropic.com/claude-ai/v2/assets/v1/vendor-query-CSyAqYtT.js:1:5061)
+    at Object.start (https://assets-proxy.anthropic.com/claude-ai/v2/assets/v1/vendor-query-CSyAqYtT.js:1:5568)
+    at A.fetch (https://assets-proxy.anthropic.com/claude-ai/v2/assets/v1/vendor-query-CSyAqYtT.js:1:10515)
+    at #K (https://assets-proxy.anthropic.com/claude-ai/v2/assets/v1/vendor-query-CSyAqYtT.js:1:25033)
+    at https://assets-proxy.anthropic.com/claude-ai/v2/assets/v1/vendor-query-CSyAqYtT.js:1:25608 @ https://assets-proxy.anthropic.com/claude-ai/v2/assets/v1/c34d1f91f-C2WM6H-4.js:0

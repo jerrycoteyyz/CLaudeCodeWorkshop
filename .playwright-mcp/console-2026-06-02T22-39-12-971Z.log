@@ -1,0 +1,19 @@
+[    2143ms] [INFO] [O11Y] [DatadogRUM] Initialized {service: claude-ai, env: production, version: acba5b9595} @ https://assets-proxy.anthropic.com/claude-ai/v2/assets/v1/c34d1f91f-C2WM6H-4.js:0
+[    2906ms] [ERROR] Failed to load resource: the server responded with a status of 403 () @ https://claude.ai/api/account_profile:0
+[    2912ms] [ERROR] [REACT_QUERY_CLIENT] QueryClient error: Error: ["account_profile"] data is undefined
+    at Object.onSuccess (https://assets-proxy.anthropic.com/claude-ai/v2/assets/v1/vendor-query-CSyAqYtT.js:1:10196)
+    at h (https://assets-proxy.anthropic.com/claude-ai/v2/assets/v1/vendor-query-CSyAqYtT.js:1:4811) @ https://assets-proxy.anthropic.com/claude-ai/v2/assets/v1/c34d1f91f-C2WM6H-4.js:0
+[    4250ms] [ERROR] Failed to load resource: the server responded with a status of 400 () @ https://ad.doubleclick.net/ccm/s/collect?auid=1360910278.1780439957&gtm=45fe6611v9227220020za200zb9196940227zd9196940227xec:0
+[    7307ms] [INFO] Clear-Site-Data header on 'https://claude.ai/api/auth/logout': Cleared data types: "storage". @ https://claude.ai/logout:0
+[    7529ms] [ERROR] TypeError: Failed to fetch
+    at a (https://assets-proxy.anthropic.com/claude-ai/v2/assets/v1/c34d1f91f-C2WM6H-4.js:1:24087)
+    at mh (https://assets-proxy.anthropic.com/claude-ai/v2/assets/v1/c34d1f91f-C2WM6H-4.js:1:229959)
+    at d (https://assets-proxy.anthropic.com/claude-ai/v2/assets/v1/c34d1f91f-C2WM6H-4.js:2:53573)
+    at Array.map (<anonymous>)
+    at i (https://assets-proxy.anthropic.com/claude-ai/v2/assets/v1/c34d1f91f-C2WM6H-4.js:2:54005)
+    at https://assets-proxy.anthropic.com/claude-ai/v2/assets/v1/c34d1f91f-C2WM6H-4.js:2:54113 @ https://assets-proxy.anthropic.com/claude-ai/v2/assets/v1/c34d1f91f-C2WM6H-4.js:0
+[    7680ms] [INFO] [O11Y] [DatadogRUM] Initialized {service: claude-ai, env: production, version: acba5b9595} @ https://assets-proxy.anthropic.com/claude-ai/v2/assets/v1/c34d1f91f-C2WM6H-4.js:0
+[   14184ms] [ERROR] Cross-Origin-Opener-Policy policy would block the window.closed call. @ https://accounts.google.com/gsi/client:135
+[   14184ms] [ERROR] Cross-Origin-Opener-Policy policy would block the window.closed call. @ https://accounts.google.com/gsi/client:135
+[   19432ms] [ERROR] Cross-Origin-Opener-Policy policy would block the window.closed call. @ https://accounts.google.com/gsi/client:135
+[   19432ms] [ERROR] Cross-Origin-Opener-Policy policy would block the window.closed call. @ https://accounts.google.com/gsi/client:135

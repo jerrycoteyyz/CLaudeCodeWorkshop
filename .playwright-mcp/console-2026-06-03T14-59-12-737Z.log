@@ -1,0 +1,7 @@
+[     245ms] [INFO] [O11Y] [DatadogRUM] Initialized {service: claude-ai, env: production, version: acba5b9595} @ https://assets-proxy.anthropic.com/claude-ai/v2/assets/v1/c34d1f91f-C2WM6H-4.js:0
+[     411ms] [WARNING] [SERVICE_WORKER] Found 1 service worker(s), which are no longer used. Unregistering. @ https://assets-proxy.anthropic.com/claude-ai/v2/assets/v1/c34d1f91f-C2WM6H-4.js:0
+[    2901ms] [ERROR] Failed to load resource: the server responded with a status of 401 () @ https://claude.ai/api/organizations/4ab98f76-5d66-4474-b802-efde0360472b/code/repos?skip_status=true:0
+[    3095ms] [ERROR] [REACT_QUERY_CLIENT] QueryClient error: ld: You must authenticate with GitHub.
+    at ud (https://assets-proxy.anthropic.com/claude-ai/v2/assets/v1/c34d1f91f-C2WM6H-4.js:1:172248)
+    at https://assets-proxy.anthropic.com/claude-ai/v2/assets/v1/c34d1f91f-C2WM6H-4.js:2:70907
+    at async https://assets-proxy.anthropic.com/claude-ai/v2/assets/v1/c34d1f91f-C2WM6H-4.js:2:72204 @ https://assets-proxy.anthropic.com/claude-ai/v2/assets/v1/c34d1f91f-C2WM6H-4.js:0

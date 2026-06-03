@@ -1,0 +1,515 @@
+- generic [ref=e1]:
+  - generic [ref=e2]:
+    - generic [ref=e6]:
+      - navigation:
+        - generic [ref=e7]:
+          - generic:
+            - link:
+              - /url: /new
+              - img
+          - button [ref=e20] [cursor=pointer]:
+            - generic [ref=e12]:
+              - generic [ref=e13]: 
+              - generic [ref=e14]: 
+        - generic:
+          - link:
+            - /url: /new
+            - generic:
+              - generic:
+                - generic:
+                  - generic: 
+        - generic:
+          - link:
+            - /url: /recents
+            - generic:
+              - generic: 
+            - text: Chats
+          - link:
+            - /url: /projects
+            - generic:
+              - generic: 
+            - text: Projects
+          - link:
+            - /url: /artifacts/my
+            - generic:
+              - generic: 
+          - link:
+            - /url: /customize
+            - generic:
+              - generic: 
+        - generic:
+          - generic:
+            - generic: 
+          - list:
+            - link:
+              - /url: /code
+              - generic:
+                - generic:
+                  - generic: 
+            - link:
+              - /url: /design
+              - generic:
+                - generic:
+                  - generic: 
+        - generic:
+          - generic:
+            - generic: 
+          - link:
+            - /url: /chat/fb66374e-899d-4e91-a6b0-c22f9ee18183
+            - generic: Understanding homebrew functionality
+          - link:
+            - /url: /chat/5bd04dd3-d608-43ef-bc7b-e4f8a693032d
+            - generic: News says you died
+          - link:
+            - /url: /chat/df21b71c-51f1-4222-adee-ca5f618a8b27
+            - generic: Data science class summary guide
+          - link:
+            - /url: /chat/1babce35-2958-4e25-bd0b-a7fcf1fe1f0e
+            - generic: Are we living in the end times?
+          - link:
+            - /url: /chat/a524c153-3e6e-4bbd-b992-a95f1365366e
+            - generic: Medical science corruption and the need for scientific revolution
+          - link:
+            - /url: /chat/88af6240-2e45-4258-8d57-fbbf307469c1
+            - generic: AngularJS development interview questions
+          - link:
+            - /url: /chat/3351d91c-321c-4e26-8f2a-baba9fb553f3
+            - generic: Double mastectomy procedure duration
+          - link:
+            - /url: /chat/335511cf-c3d5-47e1-bb17-4512108755fd
+            - generic: Understanding cosine similarity magnitude calculation
+          - link:
+            - /url: /chat/fe4cc6aa-a9da-499c-8cbf-5cf10ab392ee
+            - generic: Whitey Bulger's suspicious prison death
+          - link:
+            - /url: /chat/a4468591-d551-41df-93cb-8de371c855bd
+            - generic: Statistical model performance metrics
+          - link:
+            - /url: /chat/84c4a021-cab9-4c55-9870-4a4c1baafe86
+            - generic: Recommendation systems and personalization
+          - link:
+            - /url: /chat/2818cc47-8a5e-49ff-b4d3-7c161c84e667
+            - generic: Finding My Tribe — Gen X
+          - link:
+            - /url: /chat/be516fce-10ee-4b3d-b04e-671ad1f6939e
+            - generic: Trippiest YES song for transcendence
+          - link:
+            - /url: /chat/412a1da8-03ba-4c8c-8f9e-fe022b4abe23
+            - generic: Understanding causal inference goals
+          - link:
+            - /url: /chat/b4bd9099-e7cd-4953-9ef6-303644800069
+            - generic: Model training metrics evaluation
+          - link:
+            - /url: /chat/4b3ddc3e-e2c6-44a0-9fc7-c9b7a3a065a8
+            - generic: Deploying KNIME models as services
+          - link:
+            - /url: /chat/347f9464-2b7e-43ac-9c13-30641eed69e7
+            - generic: AI tasks and capabilities
+          - link:
+            - /url: /chat/38e3c6b1-6062-45c0-9a4a-fd9e811db8c3
+            - generic: Fun training opportunity
+          - link:
+            - /url: /chat/7ae72063-c065-4760-8d8c-39802c0c87a4
+            - generic: Huggingface payment error with Qwen and Together AI
+          - link:
+            - /url: /chat/1adcdc5c-f83c-4ae7-a0ec-5ae3256a6203
+            - generic: Quantifying deception patterns in human behavior
+          - link:
+            - /url: /chat/b4cdd4a5-a526-4640-8664-2cf7a6dfabfe
+            - generic: Scott Bessent and the QFS system
+          - link:
+            - /url: /chat/7ff12ec3-c13a-441e-846e-aea112107d99
+            - generic: Learning data science through practical projects
+          - link:
+            - /url: /chat/9e595787-be1d-4b74-a84d-3afb7e89cd1f
+            - generic: Kash Patel UFO disclosure announcement verification
+          - link:
+            - /url: /chat/2d135a9e-9f81-4c6a-92e4-fc52f2e42c43
+            - generic: Asimov's robot laws and AI moral constraints
+          - link:
+            - /url: /chat/e235abf8-1857-4fb6-8d92-b1a82c43b1e4
+            - generic: Chat URL visibility and access restrictions
+          - link:
+            - /url: /chat/d477daac-c87a-405c-a0bd-8da451d50880
+            - generic: LSTM for sentiment analysis and modern alternatives
+          - link:
+            - /url: /chat/8a17c95f-de5c-49a0-9ff5-0f630dd537c2
+            - generic: Retrieval augmented generation explained
+          - link:
+            - /url: /chat/ca004161-19ac-453c-a259-ff1ff43eff65
+            - generic: Alpha level and statistical errors explained
+          - link:
+            - /url: /chat/1cfc2973-ad26-4027-91bd-d9c3e5762787
+            - generic: Updating LinkedIn profile with AI portfolio project
+          - link:
+            - /url: /chat/ec41095d-9d29-479f-bd6a-7eaa78171c72
+            - generic: KNIME LLM Prompter JSON formatting issues
+          - link:
+            - /url: /recents
+            - img
+        - generic:
+          - link:
+            - /url: /downloads
+            - generic:
+              - generic: 
+        - button:
+          - generic:
+            - generic:
+              - generic:
+                - generic: JC
+          - generic:
+            - img
+      - generic [ref=e15]:
+        - main [ref=e23]:
+          - generic [ref=e28]:
+            - img [ref=e32]
+            - generic [ref=e34]: Good morning, Jerry C Cote
+          - generic [ref=e36]:
+            - group [ref=e39]:
+              - generic [ref=e42]:
+                - generic [ref=e43]:
+                  - textbox [ref=e45]:
+                    - paragraph [ref=e46]
+                  - generic:
+                    - generic: How can I help you today?
+                - generic [ref=e47]:
+                  - button [ref=e50] [cursor=pointer]:
+                    - generic [ref=e53]: 
+                  - button [ref=e57] [cursor=pointer]:
+                    - generic [ref=e59]: Sonnet 4.6 Low
+                    - img [ref=e61]
+                  - generic [ref=e64]:
+                    - button [ref=e66] [cursor=pointer]:
+                      - img [ref=e69]
+                    - button [ref=e71] [cursor=pointer]:
+                      - img [ref=e74]
+                  - button [ref=e80] [cursor=pointer]:
+                    - img [ref=e83]
+              - generic:
+                - status
+            - list "Prompt categories" [ref=e163]:
+              - listitem [ref=e164]:
+                - button "Strategize" [ref=e165] [cursor=pointer]:
+                  - generic [ref=e167]:
+                    - img [ref=e169]
+                    - generic [ref=e171]: Strategize
+              - listitem [ref=e172]:
+                - button "Code" [ref=e173] [cursor=pointer]:
+                  - generic [ref=e175]:
+                    - img [ref=e177]
+                    - generic [ref=e179]: Code
+              - listitem [ref=e180]:
+                - button "Learn" [ref=e181] [cursor=pointer]:
+                  - generic [ref=e183]:
+                    - img [ref=e185]
+                    - generic [ref=e187]: Learn
+              - listitem [ref=e188]:
+                - button "Write" [ref=e189] [cursor=pointer]:
+                  - generic [ref=e191]:
+                    - img [ref=e193]
+                    - generic [ref=e195]: Write
+              - listitem [ref=e196]:
+                - button "Life stuff" [ref=e197] [cursor=pointer]:
+                  - generic [ref=e199]:
+                    - img [ref=e201]
+                    - generic [ref=e203]: Life stuff
+        - button [ref=e93] [cursor=pointer]:
+          - img [ref=e95]
+    - list
+  - dialog "Settings" [ref=e103]:
+    - navigation "Settings" [ref=e104]:
+      - heading "Settings" [level=2] [ref=e105]
+      - generic [ref=e106]: Settings
+      - button [ref=e107] [cursor=pointer]:
+        - generic [ref=e108]:
+          - generic [ref=e109]: 
+          - textbox "Search settings" [ref=e110]:
+            - /placeholder: Search
+      - list [ref=e111]:
+        - listitem [ref=e112]:
+          - button "General" [ref=e113] [cursor=pointer]:
+            - generic [ref=e114]: 
+            - generic [ref=e115]: General
+        - listitem [ref=e116]:
+          - button "Account" [ref=e117] [cursor=pointer]:
+            - generic [ref=e118]: 
+            - generic [ref=e119]: Account
+        - listitem [ref=e120]:
+          - button "Privacy" [ref=e121] [cursor=pointer]:
+            - generic [ref=e122]: 
+            - generic [ref=e123]: Privacy
+        - listitem [ref=e124]:
+          - button "Billing" [ref=e125] [cursor=pointer]:
+            - generic [ref=e126]: 
+            - generic [ref=e127]: Billing
+        - listitem [ref=e128]:
+          - button "Usage" [ref=e129] [cursor=pointer]:
+            - generic [ref=e130]: 
+            - generic [ref=e131]: Usage
+        - listitem [ref=e132]:
+          - button "Capabilities" [ref=e133] [cursor=pointer]:
+            - generic [ref=e134]: 
+            - generic [ref=e135]: Capabilities
+        - listitem [ref=e136]:
+          - button "Connectors" [ref=e137] [cursor=pointer]:
+            - generic [ref=e138]: 
+            - generic [ref=e139]: Connectors
+        - listitem [ref=e140]:
+          - button "Claude Code" [active] [ref=e141] [cursor=pointer]:
+            - generic [ref=e142]: 
+            - generic [ref=e143]: Claude Code
+        - listitem [ref=e144]:
+          - button "Claude in Chrome Beta" [ref=e145] [cursor=pointer]:
+            - generic [ref=e146]: 
+            - generic [ref=e147]: Claude in Chrome
+            - generic [ref=e148]: Beta
+    - generic [ref=e149]:
+      - button "Close" [ref=e151] [cursor=pointer]:
+        - generic [ref=e154]: 
+      - main [ref=e205]:
+        - generic [ref=e208]:
+          - generic [ref=e213]:
+            - paragraph [ref=e214]: Guest pass
+            - paragraph [ref=e215]: 3/3 left
+          - generic [ref=e216]:
+            - generic [ref=e217]:
+              - heading "Give Claude, get more Claude" [level=3] [ref=e218]
+              - paragraph [ref=e219]:
+                - text: Send a friend a free week of Claude Code. If they love it and subscribe, you'll get $10 in usage credits to keep building.
+                - link "Terms apply" [ref=e220] [cursor=pointer]:
+                  - /url: https://support.claude.com/en/articles/13456702-claude-code-guest-passes
+            - generic [ref=e221]:
+              - generic [ref=e222]:
+                - textbox [ref=e223]: https://claude.ai/referral/WRJK77RZuQ
+                - button "Copy link" [ref=e225] [cursor=pointer]:
+                  - generic [ref=e227]:
+                    - img [ref=e229]
+                    - text: Copy link
+              - paragraph [ref=e231]: Friends can try both Cowork and Claude Code.
+        - generic [ref=e232]:
+          - heading "Code appearance" [level=3] [ref=e235]
+          - generic [ref=e236]:
+            - generic [ref=e237]:
+              - generic [ref=e238]:
+                - button "Light code theme" [ref=e240] [cursor=pointer]:
+                  - generic [ref=e241]: Claude Light
+                  - generic [ref=e242]: 
+                - textbox [ref=e243]: claude-light
+                - code [ref=e247]:
+                  - generic [ref=e248]:
+                    - generic [ref=e250]: "1"
+                    - generic [ref=e252]: "2"
+                    - generic [ref=e254]: "2"
+                    - generic [ref=e256]: "3"
+                  - generic [ref=e257]:
+                    - generic [ref=e258]: "function greet(name: string) {"
+                    - generic [ref=e259]:
+                      - text: "- return"
+                      - generic [ref=e260]: "\""
+                      - text: Hello,
+                      - generic [ref=e261]: "\" +"
+                      - text: name;
+                    - generic [ref=e262]:
+                      - text: + return
+                      - generic [ref=e263]: "`"
+                      - text: Hello,
+                      - generic [ref=e264]: "${"
+                      - text: name
+                      - generic [ref=e265]: "}!`"
+                      - text: ;
+                    - generic [ref=e266]: "}"
+              - generic [ref=e267]:
+                - button "Dark code theme" [ref=e269] [cursor=pointer]:
+                  - generic [ref=e270]: Claude Dark
+                  - generic [ref=e271]: 
+                - textbox [ref=e272]: claude-dark
+                - code [ref=e276]:
+                  - generic [ref=e277]:
+                    - generic [ref=e279]: "1"
+                    - generic [ref=e281]: "2"
+                    - generic [ref=e283]: "2"
+                    - generic [ref=e285]: "3"
+                  - generic [ref=e286]:
+                    - generic [ref=e287]: "function greet(name: string) {"
+                    - generic [ref=e288]:
+                      - text: "- return"
+                      - generic [ref=e289]: "\""
+                      - text: Hello,
+                      - generic [ref=e290]: "\" +"
+                      - text: name;
+                    - generic [ref=e291]:
+                      - text: + return
+                      - generic [ref=e292]: "`"
+                      - text: Hello,
+                      - generic [ref=e293]: "${"
+                      - text: name
+                      - generic [ref=e294]: "}!`"
+                      - text: ;
+                    - generic [ref=e295]: "}"
+            - group "Code font" [ref=e296]:
+              - generic [ref=e297]:
+                - generic [ref=e299]: Code font
+                - generic [ref=e300]: Set a custom monospace font for code and terminal.
+              - textbox "Code font family" [ref=e302]:
+                - /placeholder: e.g. JetBrains Mono
+        - generic [ref=e303]:
+          - heading "Appearance" [level=3] [ref=e306]
+          - generic [ref=e307]:
+            - group "High-contrast dark theme" [ref=e308]:
+              - generic [ref=e309]:
+                - generic [ref=e311]: High-contrast dark theme
+                - generic [ref=e312]: Use a darker, near-black background when dark mode is on.
+              - generic [ref=e313]:
+                - switch "High-contrast dark theme" [ref=e314] [cursor=pointer]
+                - checkbox [ref=e316]
+            - group "Interface font" [ref=e317]:
+              - generic [ref=e318]:
+                - generic [ref=e320]: Interface font
+                - generic [ref=e321]: Font for the Claude Code interface — menus, sidebar, and chat.
+              - generic [ref=e322]:
+                - radiogroup "Interface font" [ref=e323]:
+                  - radio "Anthropic Sans" [checked] [ref=e325] [cursor=pointer]
+                  - radio [checked] [ref=e326]
+                  - radio "System" [ref=e327] [cursor=pointer]
+                  - radio [ref=e328]
+                - textbox [ref=e329]: anthropic
+            - group "Transcript text size" [ref=e330]:
+              - generic [ref=e331]:
+                - generic [ref=e333]: Transcript text size
+                - generic [ref=e334]: Size of the conversation transcript text.
+              - generic [ref=e335]:
+                - radiogroup "Transcript text size" [ref=e336]:
+                  - radio "Small" [ref=e338] [cursor=pointer]
+                  - radio [ref=e339]
+                  - radio "Medium" [checked] [ref=e340] [cursor=pointer]
+                  - radio [checked] [ref=e341]
+                  - radio "Large" [ref=e342] [cursor=pointer]
+                  - radio [ref=e343]
+                - textbox [ref=e344]: m
+        - generic [ref=e345]:
+          - heading "General" [level=3] [ref=e348]
+          - group "Classify session states" [ref=e350]:
+            - generic [ref=e351]:
+              - generic [ref=e353]: Classify session states
+              - generic [ref=e354]: Allow Claude to automatically classify sessions as blocked, ready for review, or done. Classifying sessions counts towards your plan usage. Applies to new sessions.
+            - generic [ref=e355]:
+              - switch "Classify session states" [checked] [ref=e356] [cursor=pointer]
+              - checkbox [checked] [ref=e358]
+        - generic [ref=e359]:
+          - heading "Pull requests" [level=3] [ref=e362]
+          - generic [ref=e363]:
+            - group "Create pull requests automatically" [ref=e364]:
+              - generic [ref=e365]:
+                - generic [ref=e367]: Create pull requests automatically
+                - generic [ref=e368]: When Claude pushes changes to a branch, it automatically opens a pull request without asking first. Applies to remote sessions only.
+              - generic [ref=e369]:
+                - switch "Create pull requests automatically" [ref=e370] [cursor=pointer]
+                - checkbox [ref=e372]
+            - group "Autofix pull requests" [ref=e373]:
+              - generic [ref=e374]:
+                - generic [ref=e376]: Autofix pull requests
+                - generic [ref=e377]: When you create a pull request, Claude automatically monitors it for CI failures and review comments, then responds proactively. Claude may post comments on your behalf.
+              - generic [ref=e378]:
+                - switch "Autofix pull requests" [ref=e379] [cursor=pointer]
+                - checkbox [ref=e381]
+        - generic [ref=e382]:
+          - generic [ref=e384]:
+            - heading "Authorization tokens" [level=3] [ref=e385]
+            - generic [ref=e386]: Created when you sign in to Claude Code. Revoke a token to sign out from that device.
+          - table [ref=e389]:
+            - rowgroup [ref=e390]:
+              - row "Application Scopes" [ref=e391]:
+                - columnheader "Application" [ref=e392]
+                - columnheader "Scopes" [ref=e393]
+                - columnheader [ref=e394]
+            - rowgroup [ref=e395]:
+              - row "Claude Code Connected 7 minutes ago user:file_upload user:inference user:mcp_servers user:profile user:sessions:claude_code Revoke access" [ref=e396]:
+                - cell "Claude Code Connected 7 minutes ago" [ref=e397]:
+                  - generic [ref=e398]:
+                    - generic [ref=e399]: Claude Code
+                    - generic [ref=e400]: Connected 7 minutes ago
+                - cell "user:file_upload user:inference user:mcp_servers user:profile user:sessions:claude_code" [ref=e401]:
+                  - generic [ref=e402]:
+                    - generic [ref=e403]: user:file_upload
+                    - generic [ref=e404]: user:inference
+                    - generic [ref=e405]: user:mcp_servers
+                    - generic [ref=e406]: user:profile
+                    - generic [ref=e407]: user:sessions:claude_code
+                - cell "Revoke access" [ref=e408]:
+                  - button "Revoke access" [ref=e410] [cursor=pointer]:
+                    - generic [ref=e413]: 
+              - row "Claude Code Connected 1 day ago user:file_upload user:inference user:profile Revoke access" [ref=e414]:
+                - cell "Claude Code Connected 1 day ago" [ref=e415]:
+                  - generic [ref=e416]:
+                    - generic [ref=e417]: Claude Code
+                    - generic [ref=e418]: Connected 1 day ago
+                - cell "user:file_upload user:inference user:profile" [ref=e419]:
+                  - generic [ref=e420]:
+                    - generic [ref=e421]: user:file_upload
+                    - generic [ref=e422]: user:inference
+                    - generic [ref=e423]: user:profile
+                - cell "Revoke access" [ref=e424]:
+                  - button "Revoke access" [ref=e426] [cursor=pointer]:
+                    - generic [ref=e429]: 
+              - row "Claude Code Connected 1 day ago user:file_upload user:inference user:profile user:sessions:claude_code Revoke access" [ref=e430]:
+                - cell "Claude Code Connected 1 day ago" [ref=e431]:
+                  - generic [ref=e432]:
+                    - generic [ref=e433]: Claude Code
+                    - generic [ref=e434]: Connected 1 day ago
+                - cell "user:file_upload user:inference user:profile user:sessions:claude_code" [ref=e435]:
+                  - generic [ref=e436]:
+                    - generic [ref=e437]: user:file_upload
+                    - generic [ref=e438]: user:inference
+                    - generic [ref=e439]: user:profile
+                    - generic [ref=e440]: user:sessions:claude_code
+                - cell "Revoke access" [ref=e441]:
+                  - button "Revoke access" [ref=e443] [cursor=pointer]:
+                    - generic [ref=e446]: 
+              - row "Claude Code Connected 3 days ago user:file_upload user:inference user:mcp_servers user:profile user:sessions:claude_code Revoke access" [ref=e447]:
+                - cell "Claude Code Connected 3 days ago" [ref=e448]:
+                  - generic [ref=e449]:
+                    - generic [ref=e450]: Claude Code
+                    - generic [ref=e451]: Connected 3 days ago
+                - cell "user:file_upload user:inference user:mcp_servers user:profile user:sessions:claude_code" [ref=e452]:
+                  - generic [ref=e453]:
+                    - generic [ref=e454]: user:file_upload
+                    - generic [ref=e455]: user:inference
+                    - generic [ref=e456]: user:mcp_servers
+                    - generic [ref=e457]: user:profile
+                    - generic [ref=e458]: user:sessions:claude_code
+                - cell "Revoke access" [ref=e459]:
+                  - button "Revoke access" [ref=e461] [cursor=pointer]:
+                    - generic [ref=e464]: 
+              - row "Claude Code Connected 3 days ago user:file_upload user:inference user:mcp_servers user:profile user:sessions:claude_code Revoke access" [ref=e465]:
+                - cell "Claude Code Connected 3 days ago" [ref=e466]:
+                  - generic [ref=e467]:
+                    - generic [ref=e468]: Claude Code
+                    - generic [ref=e469]: Connected 3 days ago
+                - cell "user:file_upload user:inference user:mcp_servers user:profile user:sessions:claude_code" [ref=e470]:
+                  - generic [ref=e471]:
+                    - generic [ref=e472]: user:file_upload
+                    - generic [ref=e473]: user:inference
+                    - generic [ref=e474]: user:mcp_servers
+                    - generic [ref=e475]: user:profile
+                    - generic [ref=e476]: user:sessions:claude_code
+                - cell "Revoke access" [ref=e477]:
+                  - button "Revoke access" [ref=e479] [cursor=pointer]:
+                    - generic [ref=e482]: 
+        - generic [ref=e483]:
+          - heading "Claude Code (CLI, Desktop, IDE)" [level=3] [ref=e486]
+          - group "Delete sessions stored by Anthropic" [ref=e488]:
+            - generic [ref=e489]:
+              - generic [ref=e491]: Delete sessions stored by Anthropic
+              - generic [ref=e492]:
+                - text: Permanently delete Anthropic's server-side copies of your Claude Code sessions. Sessions stored locally on your computer aren't affected. Claude Code on the web sessions are managed separately — go to
+                - link "Claude Code" [ref=e493] [cursor=pointer]:
+                  - /url: /code
+                - text: .
+            - button "Delete…" [ref=e495] [cursor=pointer]:
+              - generic [ref=e497]: Delete…
+        - group "Sharing settings" [ref=e500]:
+          - generic [ref=e501]:
+            - generic [ref=e503]: Sharing settings
+            - generic [ref=e504]: Control how your claude.ai/code sessions are shared.
+          - button "Manage" [ref=e506] [cursor=pointer]:
+            - generic [ref=e508]: Manage

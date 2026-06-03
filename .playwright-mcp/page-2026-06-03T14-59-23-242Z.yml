@@ -1,0 +1,117 @@
+- generic [ref=e2]:
+  - generic [ref=e11]:
+    - complementary "Sidebar" [ref=e13]:
+      - link "Skip to content" [ref=e14] [cursor=pointer]:
+        - /url: "#dframe-main"
+      - separator "Resize sidebar" [ref=e16]
+      - generic:
+        - generic: Click to collapseCtrl+B
+        - generic: Drag to resize
+      - generic [ref=e18]:
+        - generic [ref=e19]:
+          - link "Claude Code" [ref=e20] [cursor=pointer]:
+            - /url: /code
+            - img "Claude Code" [ref=e21]
+          - generic [ref=e32]: Research preview
+        - button "Collapse sidebar" [ref=e35]:
+          - generic [ref=e36]: 
+        - button "Search" [ref=e39]:
+          - generic [ref=e40]: 
+      - generic [ref=e41]:
+        - generic [ref=e42]:
+          - generic [ref=e43]:
+            - button "New session" [ref=e44]:
+              - generic [ref=e46]: 
+              - text: New session
+              - generic [ref=e47]: ⇧⌘O
+            - button "Routines" [ref=e48]:
+              - generic [ref=e50]: 
+              - generic [ref=e51]: Routines
+            - button "Customize" [ref=e52]:
+              - generic [ref=e54]: 
+              - generic [ref=e55]: Customize
+            - button "More navigation items" [ref=e56]:
+              - generic [ref=e58]: 
+              - generic [ref=e59]: More
+          - generic [ref=e66]:
+            - paragraph [ref=e67]: Sessions you start will show up here
+            - img [ref=e69]
+        - generic [ref=e2076]:
+          - img [ref=e2078]
+          - generic [ref=e2083]: Try the Slack app
+          - button "Install" [ref=e2084]: Install
+          - button "Dismiss" [ref=e2087]:
+            - img [ref=e2089]
+        - button "Jerry C Cote Jerry C Cote Pro" [ref=e2093]:
+          - img "Jerry C Cote" [ref=e2094]: JC
+          - generic [ref=e2095]:
+            - generic [ref=e2096]: Jerry C Cote
+            - generic [ref=e2097]: ·
+            - generic [ref=e2098]: Pro
+          - generic [ref=e2099]: 
+    - main [ref=e2100]:
+      - region "Primary pane" [ref=e2104]:
+        - generic [ref=e2110]:
+          - generic [ref=e2116]:
+            - generic [ref=e2120]:
+              - img [ref=e2121]
+              - heading "What’s up next, Jerry C Cote?" [level=1] [ref=e2123]
+            - generic [ref=e2128]:
+              - button:
+                - img
+              - generic [ref=e2129]:
+                - button "Default" [ref=e2130]:
+                  - img [ref=e2131]
+                  - generic [ref=e2133]: Default
+                - button "Select repo…" [expanded] [ref=e2134]:
+                  - img [ref=e2135]
+                  - generic [ref=e2137]: Select repo…
+                - generic [ref=e2278]:
+                  - listbox [ref=e2279]:
+                    - option "jerrycoteyyz/CLaudeCodeWorkshop" [ref=e2280]:
+                      - generic [ref=e2281]: jerrycoteyyz/CLaudeCodeWorkshop
+                    - option "jerrycoteyyz/ng-cart" [ref=e2282]:
+                      - generic [ref=e2283]: jerrycoteyyz/ng-cart
+                    - option "jerrycoteyyz/orders_and_payments" [ref=e2284]:
+                      - generic [ref=e2285]: jerrycoteyyz/orders_and_payments
+                    - option "jerrycoteyyz/sfguide-data-engineering-with-snowpark-python-intro" [ref=e2286]:
+                      - generic [ref=e2287]: jerrycoteyyz/sfguide-data-engineering-with-snowpark-python-intro
+                    - option "jerrycoteyyz/sfquickstarts" [ref=e2288]:
+                      - generic [ref=e2289]: jerrycoteyyz/sfquickstarts
+                  - status [ref=e2290]
+                  - generic [ref=e2291]:
+                    - img [ref=e2292]
+                    - combobox "Search repos…" [expanded] [active] [ref=e2294]
+                - textbox [ref=e2138]
+              - button [ref=e2139]:
+                - img [ref=e2141]
+              - generic [ref=e2235]:
+                - status [ref=e2236]
+                - generic [ref=e2237]:
+                  - generic "Prompt" [ref=e2239]:
+                    - paragraph [ref=e2240]: Describe a task or ask a question
+                  - button "Send" [disabled] [ref=e2242]:
+                    - img [ref=e2245]
+              - generic [ref=e2247]:
+                - generic [ref=e2248]:
+                  - button "Accept edits" [ref=e2249]:
+                    - generic [ref=e2250]: Accept edits
+                  - button "Add" [ref=e2251]:
+                    - img [ref=e2253]
+                  - group "Dictation" [ref=e2255]:
+                    - button "Press and hold to record" [ref=e2256]:
+                      - img [ref=e2257]
+                    - button "Dictation settings" [ref=e2259]:
+                      - img [ref=e2260]
+                - generic [ref=e2262]:
+                  - button "Sonnet 4.6" [ref=e2263]:
+                    - generic [ref=e2264]: Sonnet 4.6
+                  - 'button "Effort: Low" [ref=e2265]':
+                    - generic [ref=e2266]: "Effort:"
+                    - generic [ref=e2267]: Low
+                  - 'button "Usage: plan 7%" [ref=e2268]':
+                    - img [ref=e2270]
+          - generic [ref=e2273]: Arrow keys move the tile. Perpendicular arrows preview a split; press Enter to commit or Escape to cancel.
+          - status [ref=e2274]
+  - region "Notifications (F8)":
+    - list

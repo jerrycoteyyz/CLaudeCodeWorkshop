@@ -1,0 +1,9 @@
+[      76ms] [ERROR] TypeError: Failed to fetch
+    at a (https://assets-proxy.anthropic.com/claude-ai/v2/assets/v1/c34d1f91f-C2WM6H-4.js:1:24087)
+    at mh (https://assets-proxy.anthropic.com/claude-ai/v2/assets/v1/c34d1f91f-C2WM6H-4.js:1:229959)
+    at d (https://assets-proxy.anthropic.com/claude-ai/v2/assets/v1/c34d1f91f-C2WM6H-4.js:2:53573)
+    at Array.map (<anonymous>)
+    at i (https://assets-proxy.anthropic.com/claude-ai/v2/assets/v1/c34d1f91f-C2WM6H-4.js:2:54005)
+    at https://assets-proxy.anthropic.com/claude-ai/v2/assets/v1/c34d1f91f-C2WM6H-4.js:2:54113 @ https://assets-proxy.anthropic.com/claude-ai/v2/assets/v1/c34d1f91f-C2WM6H-4.js:0
+[     246ms] [INFO] [O11Y] [DatadogRUM] Initialized {service: claude-ai, env: production, version: acba5b9595} @ https://assets-proxy.anthropic.com/claude-ai/v2/assets/v1/c34d1f91f-C2WM6H-4.js:0
+[     906ms] [WARNING] [SERVICE_WORKER] Found 1 service worker(s), which are no longer used. Unregistering. @ https://assets-proxy.anthropic.com/claude-ai/v2/assets/v1/c34d1f91f-C2WM6H-4.js:0
