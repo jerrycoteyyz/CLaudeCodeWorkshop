@@ -1,0 +1,22 @@
+# Dependencies
+node_modules/
+
+# Playwright MCP artifacts
+.playwright-mcp/
+
+# Environment variables
+.env
+.env.local
+.env*.local
+
+# Build outputs
+dist/
+.next/
+out/
+
+# Logs
+*.log
+
+# OS
+.DS_Store
+Thumbs.db
