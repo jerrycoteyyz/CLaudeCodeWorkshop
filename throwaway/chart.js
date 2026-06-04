@@ -1,10 +1,15 @@
 const MAX_TICKS = 100;
 const INTERVAL_MS = 1000;
+const TICKER_SYMBOL = (window.APP_CONFIG && window.APP_CONFIG.tickerSymbol) || 'DUMMY';
 
 const canvas = document.getElementById('chart');
 const ctx = canvas.getContext('2d');
 const priceEl = document.getElementById('current-price');
 const deltaEl = document.getElementById('delta');
+const tickerEl = document.getElementById('ticker');
+
+tickerEl.textContent = TICKER_SYMBOL;
+document.title = TICKER_SYMBOL + ' — Stock Tracker';
 
 const prices = [100];
 const times = [new Date()];
