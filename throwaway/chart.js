@@ -1,6 +1,7 @@
 const MAX_TICKS = 100;
 const INTERVAL_MS = 1000;
-const TICKER_SYMBOL = (window.APP_CONFIG && window.APP_CONFIG.tickerSymbol) || 'DUMMY';
+const TICKER_SYMBOL =
+  (window.APP_CONFIG && window.APP_CONFIG.tickerSymbol) || 'DUMMY';
 
 const canvas = document.getElementById('chart');
 const ctx = canvas.getContext('2d');
@@ -68,7 +69,11 @@ function draw() {
   prices.forEach((_, i) => {
     const x = PAD.left + i * xStep;
     const t = times[i];
-    const label = t.toLocaleTimeString([], { hour: '2-digit', minute: '2-digit', second: '2-digit' });
+    const label = t.toLocaleTimeString([], {
+      hour: '2-digit',
+      minute: '2-digit',
+      second: '2-digit',
+    });
     if (i === 0 || i === prices.length - 1 || i % 5 === 0) {
       ctx.fillText(label, x, H - PAD.bottom + 16);
     }
@@ -102,7 +107,10 @@ function draw() {
 
   // dot at latest price
   const dotX = PAD.left + (prices.length - 1) * xStep;
-  const dotY = PAD.top + chartH - ((prices[prices.length - 1] - minP) / priceRange) * chartH;
+  const dotY =
+    PAD.top +
+    chartH -
+    ((prices[prices.length - 1] - minP) / priceRange) * chartH;
   ctx.beginPath();
   ctx.arc(dotX, dotY, 4, 0, Math.PI * 2);
   ctx.fillStyle = lineColor;

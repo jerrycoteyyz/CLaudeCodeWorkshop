@@ -6,16 +6,19 @@
 ---
 
 ## Goal
+
 [One sentence: what will be true when this plan is complete?]
 
 ---
 
 ## Current State
+
 [What exists today? What is broken or missing? Keep it factual.]
 
 ---
 
 ## Proposed Solution
+
 [Describe the approach in plain language. Why this approach over alternatives?]
 
 ---
@@ -31,20 +34,23 @@
 ---
 
 ## Files to Create
-| File | Purpose |
-|---|---|
+
+| File             | Purpose        |
+| ---------------- | -------------- |
 | `[path/to/file]` | [What it does] |
 | `[path/to/file]` | [What it does] |
 
 ## Files to Modify
-| File | Change |
-|---|---|
+
+| File             | Change                 |
+| ---------------- | ---------------------- |
 | `[path/to/file]` | [What changes and why] |
 | `[path/to/file]` | [What changes and why] |
 
 ---
 
 ## Definition of Done
+
 - [ ] [Specific, testable condition]
 - [ ] [Specific, testable condition]
 - [ ] No console errors
@@ -54,5 +60,6 @@
 ---
 
 ## Risks & Notes
+
 - **Risk:** [What could go wrong?] — **Mitigation:** [How to handle it]
 - **Note:** [Any assumption, constraint, or dependency worth calling out]

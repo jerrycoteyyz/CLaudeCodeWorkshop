@@ -1,4 +1,6 @@
-*, *::before, *::after {
+*,
+*::before,
+*::after {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
@@ -42,8 +44,12 @@ body {
   font-size: 1rem;
 }
 
-.delta.up   { color: #3fb950; }
-.delta.down { color: #f85149; }
+.delta.up {
+  color: #3fb950;
+}
+.delta.down {
+  color: #f85149;
+}
 
 canvas {
   display: block;
